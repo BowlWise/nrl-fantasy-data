@@ -3,15 +3,18 @@ import json
 import csv
 from datetime import datetime
 
-# Real NRL Fantasy endpoint (working pattern)
 URL = "https://fantasy.nrl.com/api/v1/players"
 
 headers = {
-    "User-Agent": "Mozilla/5.0",
-    "Accept": "application/json"
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)",
+    "Accept": "application/json, text/plain, */*",
+    "Referer": "https://fantasy.nrl.com/",
+    "Origin": "https://fantasy.nrl.com",
+    "Connection": "keep-alive"
 }
 
-response = requests.get(URL, headers=headers)
+session = requests.Session()
+response = session.get(URL, headers=headers)
 
 if response.status_code != 200:
     raise Exception(f"Failed to fetch data: {response.status_code}")
@@ -34,6 +37,9 @@ for p in data.get("players", []):
         "updated_at": datetime.utcnow().isoformat()
     }
     players.append(player)
+
+if not players:
+    raise Exception("No player data returned")
 
 # Save JSON
 with open("players.json", "w") as f:
