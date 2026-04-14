@@ -3,6 +3,9 @@ name: Run Footy Scraper
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
@@ -22,16 +25,24 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run scraper
-        run: |
-          python scrapers/footystats_scraper.py
+        run: python scrapers/footystats_scraper.py
+        env:
+          START_ID: 1
+          END_ID: 10000
 
       - name: Commit and push results
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
-          git add data/footystats/*.csv || echo "No files to add"
+          git add data/footystats/games.csv
 
           git commit -m "Update footy stats data" || echo "No changes to commit"
 
           git push
+
+      - name: Upload CSV artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: footy-data
+          path: data/footystats/games.csv
