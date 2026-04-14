@@ -30,29 +30,19 @@ def get_player_stats(player_id):
 
 def run_scraper():
     all_rows = []
-    empty_streak = 0
 
-    # 🎯 Target realistic range
-    for player_id in range(1, 20000):
+    START_ID = 1
+    END_ID = 30000   # ⚡ good balance for full coverage + runtime
 
-        if player_id % 100 == 0:
+    for player_id in range(START_ID, END_ID):
+
+        if player_id % 500 == 0:
             print(f"🔍 Checking player_id: {player_id}")
 
         data = get_player_stats(player_id)
 
-        # ❌ No data
         if not data or "stats" not in data:
-            empty_streak += 1
-
-            # 🛑 Stop if we hit long run of empty IDs
-            if empty_streak > 300:
-                print("🛑 No players found for a while — stopping early")
-                break
-
             continue
-
-        # ✅ Reset streak if valid player found
-        empty_streak = 0
 
         player_info = data.get("player", {})
         stats = data.get("stats", [])
@@ -64,45 +54,56 @@ def run_scraper():
 
         for game in stats:
             row = {
+                # 🧍 Player
                 "player_id": player_id,
                 "first_name": player_info.get("first_name"),
                 "last_name": player_info.get("last_name"),
                 "team": player_info.get("team_name"),
                 "position": player_info.get("positions_label"),
 
+                # 📅 Match Info
                 "year": game.get("year"),
                 "round": game.get("round_id"),
                 "round_display": game.get("round_display"),
                 "opponent": game.get("opponent"),
+                "match_date": game.get("match_date"),
 
-                "minutes": game.get("time_on_ground"),
-                "tries": game.get("tries"),
-                "try_assists": game.get("try_assists"),
-                "line_breaks": game.get("line_breaks"),
-                "tackles": game.get("tackles"),
-                "missed_tackles": game.get("missed_tackles"),
-                "tackle_breaks": game.get("tackle_breaks"),
-                "offloads": game.get("offloads"),
-                "errors": game.get("errors"),
-
-                "metres": game.get("metres_gained"),
-
-                "fantasy_points": game.get("fantasy_points"),
-                "price": game.get("price"),
-                "be": game.get("be"),
-
+                # 🏟 Game Context
                 "home_team": game.get("home_squad_name"),
                 "away_team": game.get("away_squad_name"),
                 "home_score": game.get("home_score"),
                 "away_score": game.get("away_score"),
 
-                "match_date": game.get("match_date")
+                # ⏱ Usage
+                "minutes": game.get("time_on_ground"),
+
+                # ⚔️ Attack
+                "tries": game.get("tries"),
+                "try_assists": game.get("try_assists"),
+                "line_breaks": game.get("line_breaks"),
+                "line_break_assists": game.get("line_break_assists"),
+                "tackle_breaks": game.get("tackle_breaks"),
+                "metres": game.get("metres_gained"),
+
+                # 🛡 Defence
+                "tackles": game.get("tackles"),
+                "missed_tackles": game.get("missed_tackles"),
+
+                # 🔁 Other stats
+                "offloads": game.get("offloads"),
+                "errors": game.get("errors"),
+                "kick_metres": game.get("kick_metres"),
+
+                # 💰 Fantasy
+                "fantasy_points": game.get("fantasy_points"),
+                "price": game.get("price"),
+                "break_even": game.get("be")
             }
 
             all_rows.append(row)
 
-        # ⚡ Faster but still safe
-        time.sleep(0.05)
+        # ⚡ Speed vs safety balance
+        time.sleep(0.02)
 
     if not all_rows:
         print("⚠️ No data found")
@@ -110,7 +111,9 @@ def run_scraper():
 
     df = pd.DataFrame(all_rows)
 
+    # ensure folder exists
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
+
     df.to_csv(OUTPUT_PATH, index=False)
 
     print(f"✅ Saved {len(df)} rows to {OUTPUT_PATH}")
