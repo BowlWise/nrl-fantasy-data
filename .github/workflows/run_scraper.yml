@@ -28,7 +28,7 @@ jobs:
         run: python scrapers/footystats_scraper.py
         env:
           START_ID: 1
-          END_ID: 5000
+          END_ID: 1500
 
       - name: Commit and push results
         run: |
