@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "team": "Romaguera-Crona",
+    "position": "N/A",
+    "price": 0,
+    "points": 0,
+    "avg": 0,
+    "minutes": 0,
+    "updated_at": "2026-04-14T04:59:53.770053"
+  },
+  {
+    "id": 2,
+    "name": "Ervin Howell",
+    "team": "Deckow-Crist",
+    "position": "N/A",
+    "price": 0,
+    "points": 0,
+    "avg": 0,
+    "minutes": 0,
+    "updated_at": "2026-04-14T04:59:53.770069"
+  },
+  {
+    "id": 3,
+    "name": "Clementine Bauch",
+    "team": "Romaguera-Jacobson",
+    "position": "N/A",
+    "price": 0,
+    "points": 0,
+    "avg": 0,
+    "minutes": 0,
+    "updated_at": "2026-04-14T04:59:53.770075"
+  },
+  {
+    "id": 4,
+    "name": "Patricia Lebsack",
+    "team": "Robel-Corkery",
+    "position": "N/A",
+    "price": 0,
+    "points": 0,
+    "avg": 0,
+    "minutes": 0,
+    "updated_at": "2026-04-14T04:59:53.770079"
+  },
+  {
+    "id": 5,
+    "name": "Chelsey Dietrich",
+    "team": "Keebler LLC",
+    "position": "N/A",
+    "price": 0,
+    "points": 0,
+    "avg": 0,
+    "minutes": 0,
+    "updated_at": "2026-04-14T04:59:53.770083"
+  },
+  {
+    "id": 6,
+    "name": "Mrs. Dennis Schulist",
+    "team": "Considine-Lockman",
+    "position": "N/A",
+    "price": 0,
+    "points": 0,
+    "avg": 0,
+    "minutes": 0,
+    "updated_at": "2026-04-14T04:59:53.770087"
+  },
+  {
+    "id": 7,
+    "name": "Kurtis Weissnat",
+    "team": "Johns Group",
+    "position": "N/A",
+    "price": 0,
+    "points": 0,
+    "avg": 0,
+    "minutes": 0,
+    "updated_at": "2026-04-14T04:59:53.770091"
+  },
+  {
+    "id": 8,
+    "name": "Nicholas Runolfsdottir V",
+    "team": "Abernathy Group",
+    "position": "N/A",
+    "price": 0,
+    "points": 0,
+    "avg": 0,
+    "minutes": 0,
+    "updated_at": "2026-04-14T04:59:53.770095"
+  },
+  {
+    "id": 9,
+    "name": "Glenna Reichert",
+    "team": "Yost and Sons",
+    "position": "N/A",
+    "price": 0,
+    "points": 0,
+    "avg": 0,
+    "minutes": 0,
+    "updated_at": "2026-04-14T04:59:53.770099"
+  },
+  {
+    "id": 10,
+    "name": "Clementina DuBuque",
+    "team": "Hoeger LLC",
+    "position": "N/A",
+    "price": 0,
+    "points": 0,
+    "avg": 0,
+    "minutes": 0,
+    "updated_at": "2026-04-14T04:59:53.770102"
+  }
+]
