@@ -31,8 +31,11 @@ def get_player_stats(player_id):
 def run_scraper():
     all_rows = []
 
-    START_ID = 1
-    END_ID = 30000   # ⚡ good balance for full coverage + runtime
+    # ✅ NEW: batching via environment variables
+    START_ID = int(os.getenv("START_ID", 1))
+    END_ID = int(os.getenv("END_ID", 10000))
+
+    print(f"🚀 Running batch: {START_ID} → {END_ID}")
 
     for player_id in range(START_ID, END_ID):
 
@@ -114,7 +117,11 @@ def run_scraper():
     # ensure folder exists
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
 
-    df.to_csv(OUTPUT_PATH, index=False)
+    # ✅ NEW: append instead of overwrite
+    if os.path.exists(OUTPUT_PATH):
+        df.to_csv(OUTPUT_PATH, mode='a', header=False, index=False)
+    else:
+        df.to_csv(OUTPUT_PATH, index=False)
 
     print(f"✅ Saved {len(df)} rows to {OUTPUT_PATH}")
 
