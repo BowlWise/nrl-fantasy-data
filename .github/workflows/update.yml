@@ -1,5 +1,8 @@
 name: Weekly NRL Data Update v1
 
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: "0 20 * * 1"
