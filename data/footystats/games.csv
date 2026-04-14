@@ -1,241 +1,498 @@
-0
-player
-current_season
-stats
-round_strip
-latest_be
-latest_be_round
-latest_price_round
-current_round_cap
-current_magic_number
-current_magic_round
-player
-current_season
-stats
-round_strip
-latest_be
-latest_be_round
-latest_price_round
-current_round_cap
-current_magic_number
-current_magic_round
-player
-current_season
-stats
-round_strip
-latest_be
-latest_be_round
-latest_price_round
-current_round_cap
-current_magic_number
-current_magic_round
-player
-current_season
-stats
-round_strip
-latest_be
-latest_be_round
-latest_price_round
-current_round_cap
-current_magic_number
-current_magic_round
-player
-current_season
-stats
-round_strip
-latest_be
-latest_be_round
-latest_price_round
-current_round_cap
-current_magic_number
-current_magic_round
-player
-current_season
-stats
-round_strip
-latest_be
-latest_be_round
-latest_price_round
-current_round_cap
-current_magic_number
-current_magic_round
-player
-current_season
-stats
-round_strip
-latest_be
-latest_be_round
-latest_price_round
-current_round_cap
-current_magic_number
-current_magic_round
-player
-current_season
-stats
-round_strip
-latest_be
-latest_be_round
-latest_price_round
-current_round_cap
-current_magic_number
-current_magic_round
-player
-current_season
-stats
-round_strip
-latest_be
-latest_be_round
-latest_price_round
-current_round_cap
-current_magic_number
-current_magic_round
-player
-current_season
-stats
-round_strip
-latest_be
-latest_be_round
-latest_price_round
-current_round_cap
-current_magic_number
-current_magic_round
-player
-current_season
-stats
-round_strip
-latest_be
-latest_be_round
-latest_price_round
-current_round_cap
-current_magic_number
-current_magic_round
-player
-current_season
-stats
-round_strip
-latest_be
-latest_be_round
-latest_price_round
-current_round_cap
-current_magic_number
-current_magic_round
-player
-current_season
-stats
-round_strip
-latest_be
-latest_be_round
-latest_price_round
-current_round_cap
-current_magic_number
-current_magic_round
-player
-current_season
-stats
-round_strip
-latest_be
-latest_be_round
-latest_price_round
-current_round_cap
-current_magic_number
-current_magic_round
-player
-current_season
-stats
-round_strip
-latest_be
-latest_be_round
-latest_price_round
-current_round_cap
-current_magic_number
-current_magic_round
-player
-current_season
-stats
-round_strip
-latest_be
-latest_be_round
-latest_price_round
-current_round_cap
-current_magic_number
-current_magic_round
-player
-current_season
-stats
-round_strip
-latest_be
-latest_be_round
-latest_price_round
-current_round_cap
-current_magic_number
-current_magic_round
-player
-current_season
-stats
-round_strip
-latest_be
-latest_be_round
-latest_price_round
-current_round_cap
-current_magic_number
-current_magic_round
-player
-current_season
-stats
-round_strip
-latest_be
-latest_be_round
-latest_price_round
-current_round_cap
-current_magic_number
-current_magic_round
-player
-current_season
-stats
-round_strip
-latest_be
-latest_be_round
-latest_price_round
-current_round_cap
-current_magic_number
-current_magic_round
-player
-current_season
-stats
-round_strip
-latest_be
-latest_be_round
-latest_price_round
-current_round_cap
-current_magic_number
-current_magic_round
-player
-current_season
-stats
-round_strip
-latest_be
-latest_be_round
-latest_price_round
-current_round_cap
-current_magic_number
-current_magic_round
-player
-current_season
-stats
-round_strip
-latest_be
-latest_be_round
-latest_price_round
-current_round_cap
-current_magic_number
-current_magic_round
-player
-current_season
-stats
-round_strip
-latest_be
-latest_be_round
-latest_price_round
-current_round_cap
-current_magic_number
-current_magic_round
+player_id,first_name,last_name,team,position,year,round,round_display,opponent,minutes,tries,try_assists,line_breaks,tackles,missed_tackles,tackle_breaks,offloads,errors,metres,fantasy_points,price,be,home_team,away_team,home_score,away_score,match_date
+7,Martin,Taupau,Brisbane Broncos,,2025,6,6,Roosters,18,0,0,0,10,1,1,0,0,47,14,382000.0,31.0,Broncos,Roosters,16,26,2025-04-11 20:00:00
+7,Martin,Taupau,Brisbane Broncos,,2025,3,3,Bulldogs,80,0,0,0,17,1,1,0,2,181,29,,,Broncos,Bulldogs,30,14,2025-02-22 17:30:00
+7,Martin,Taupau,Brisbane Broncos,,2025,2,2,Titans,80,0,0,0,17,0,7,2,0,176,52,,,Broncos,Titans,50,12,2025-02-16 15:30:00
+40,Shaun,Lane,Parramatta Eels,,2025,6,6,Raiders,65,0,0,1,26,5,0,0,1,55,23,465000.0,33.0,Eels,Raiders,12,50,2025-04-12 19:35:00
+40,Shaun,Lane,Parramatta Eels,,2025,5,5,Dragons,84,0,0,0,40,2,1,1,1,90,46,476000.0,43.0,Eels,Dragons,23,22,2025-04-05 15:00:00
+40,Shaun,Lane,Parramatta Eels,,2025,4,4,Sea Eagles,66,1,0,0,27,2,0,1,0,34,31,473000.0,42.0,Sea Eagles,Eels,26,12,2025-03-30 16:05:00
+40,Shaun,Lane,Parramatta Eels,,2025,3,3,Bulldogs,61,0,1,0,30,1,1,1,1,50,41,488000.0,50.0,Eels,Bulldogs,8,16,2025-03-23 16:05:00
+40,Shaun,Lane,Parramatta Eels,,2025,2,2,Tigers,63,0,0,0,26,5,0,1,0,39,21,500000.0,32.0,Eels,Tigers,6,32,2025-03-16 16:05:00
+46,Jazz,Tevaga,Manly-Warringah Sea Eagles,,2025,27,27,Warriors,46,0,0,0,21,2,5,2,2,63,26,434000.0,36.0,Sea Eagles,Warriors,27,26,2025-09-05 18:00:00
+46,Jazz,Tevaga,Manly-Warringah Sea Eagles,,2025,26,26,Dragons,51,0,0,0,20,0,3,1,1,119,39,450000.0,44.0,Dragons,Sea Eagles,24,40,2025-08-30 17:30:00
+46,Jazz,Tevaga,Manly-Warringah Sea Eagles,,2025,25,25,Dolphins,43,0,0,0,24,4,1,0,1,68,25,461000.0,40.0,Sea Eagles,Dolphins,58,30,2025-08-23 15:00:00
+46,Jazz,Tevaga,Manly-Warringah Sea Eagles,,2025,24,24,Tigers,62,0,0,0,44,5,0,0,0,59,39,481000.0,46.0,Tigers,Sea Eagles,26,12,2025-08-17 14:00:00
+46,Jazz,Tevaga,Manly-Warringah Sea Eagles,,2025,23,23,Raiders,42,0,0,0,22,0,2,0,1,108,30,487000.0,39.0,Raiders,Sea Eagles,28,12,2025-08-08 20:00:00
+46,Jazz,Tevaga,Manly-Warringah Sea Eagles,,2025,22,22,Roosters,48,0,0,0,32,4,1,1,1,58,35,500000.0,37.0,Sea Eagles,Roosters,4,20,2025-08-02 19:35:00
+46,Jazz,Tevaga,Manly-Warringah Sea Eagles,,2025,21,21,Bulldogs,45,0,0,0,37,3,1,1,0,24,38,507000.0,40.0,Bulldogs,Sea Eagles,42,4,2025-07-27 16:05:00
+46,Jazz,Tevaga,Manly-Warringah Sea Eagles,,2025,20,20,Storm,74,0,0,0,46,2,0,0,0,28,48,516000.0,51.0,Storm,Sea Eagles,16,18,2025-07-19 19:35:00
+46,Jazz,Tevaga,Manly-Warringah Sea Eagles,,2025,18,18,Rabbitohs,57,0,0,0,32,2,0,0,1,40,33,525000.0,54.0,Sea Eagles,Rabbitohs,30,12,2025-07-06 16:05:00
+46,Jazz,Tevaga,Manly-Warringah Sea Eagles,,2025,17,17,Tigers,47,0,0,0,36,4,3,0,1,62,36,555000.0,52.0,Sea Eagles,Tigers,28,10,2025-06-27 18:00:00
+54,David,Klemmer,St George-Illawarra Dragons,,2025,27,27,Panthers,42,0,0,0,33,2,0,0,0,38,32,600000.0,49.0,Dragons,Panthers,20,40,2025-09-06 15:00:00
+54,David,Klemmer,St George-Illawarra Dragons,,2025,26,26,Sea Eagles,45,0,0,0,34,0,0,0,0,60,40,625000.0,41.0,Dragons,Sea Eagles,24,40,2025-08-30 17:30:00
+54,David,Klemmer,St George-Illawarra Dragons,,2025,25,25,Rabbitohs,53,0,0,0,36,1,2,1,0,87,50,633000.0,34.0,Rabbitohs,Dragons,40,0,2025-08-21 19:50:00
+54,David,Klemmer,St George-Illawarra Dragons,,2025,24,24,Warriors,64,0,0,0,38,1,1,1,0,180,57,622000.0,25.0,Warriors,Dragons,14,10,2025-08-15 18:00:00
+54,David,Klemmer,St George-Illawarra Dragons,,2025,23,23,Sharks,68,0,0,0,36,3,3,0,0,149,54,598000.0,26.0,Dragons,Sharks,22,14,2025-08-09 15:00:00
+54,David,Klemmer,St George-Illawarra Dragons,,2025,22,22,Raiders,55,0,0,0,27,0,2,0,0,156,48,573000.0,20.0,Dragons,Raiders,18,12,2025-08-02 17:30:00
+54,David,Klemmer,St George-Illawarra Dragons,,2025,21,21,Cowboys,58,0,1,0,25,0,1,2,0,142,60,550000.0,24.0,Cowboys,Dragons,38,32,2025-07-25 18:00:00
+54,David,Klemmer,St George-Illawarra Dragons,,2025,20,20,Bulldogs,43,0,0,0,38,1,4,1,1,76,55,519000.0,29.0,Bulldogs,Dragons,20,18,2025-07-19 17:30:00
+54,David,Klemmer,St George-Illawarra Dragons,,2025,19,19,Roosters,46,0,0,0,29,0,0,1,0,115,48,498000.0,38.0,Dragons,Roosters,24,31,2025-07-12 17:30:00
+54,David,Klemmer,St George-Illawarra Dragons,,2025,18,18,Raiders,41,0,0,0,29,0,0,0,0,109,32,490000.0,28.0,Raiders,Dragons,28,24,2025-07-05 17:30:00
+60,Raymond,Faitala-Mariner,St George-Illawarra Dragons,,2025,25,25,Rabbitohs,29,0,0,0,7,3,0,0,0,25,3,355000.0,42.0,Rabbitohs,Dragons,40,0,2025-08-21 19:50:00
+60,Raymond,Faitala-Mariner,St George-Illawarra Dragons,,2025,14,14,Dolphins,41,0,0,0,22,1,1,1,1,30,29,400000.0,52.0,Dolphins,Dragons,56,6,2025-06-06 20:00:00
+60,Raymond,Faitala-Mariner,St George-Illawarra Dragons,,2025,2,2,Rabbitohs,20,0,0,0,11,1,0,0,0,82,17,427000.0,35.0,Dragons,Rabbitohs,24,25,2025-03-15 15:00:00
+60,Raymond,Faitala-Mariner,St George-Illawarra Dragons,,2025,1,1,Bulldogs,24,0,0,0,21,1,0,0,0,53,24,458000.0,35.0,Dragons,Bulldogs,20,28,2025-03-08 17:30:00
+60,Raymond,Faitala-Mariner,St George-Illawarra Dragons,,2025,3,3,Rabbitohs,80,0,0,0,13,1,1,1,0,56,22,,,Dragons,Rabbitohs,46,26,2025-02-22 15:00:00
+60,Raymond,Faitala-Mariner,St George-Illawarra Dragons,,2025,2,2,Roosters,80,0,0,0,20,1,1,1,1,84,28,,,Dragons,Roosters,26,8,2025-02-16 19:30:00
+63,Joe,Ofahengaue,Parramatta Eels,,2025,6,6,Raiders,37,0,0,0,32,2,0,0,0,66,31,430000.0,41.0,Eels,Raiders,12,50,2025-04-12 19:35:00
+63,Joe,Ofahengaue,Parramatta Eels,,2025,5,5,Dragons,22,0,0,0,9,3,0,0,0,49,7,441000.0,21.0,Eels,Dragons,23,22,2025-04-05 15:00:00
+63,Joe,Ofahengaue,Parramatta Eels,,2025,4,4,Sea Eagles,47,1,0,1,35,2,4,0,0,95,60,456000.0,41.0,Sea Eagles,Eels,26,12,2025-03-30 16:05:00
+63,Joe,Ofahengaue,Parramatta Eels,,2025,3,3,Bulldogs,40,0,0,0,25,2,0,0,0,75,28,437000.0,41.0,Eels,Bulldogs,8,16,2025-03-23 16:05:00
+63,Joe,Ofahengaue,Parramatta Eels,,2025,2,2,Tigers,31,0,0,0,27,4,0,1,0,79,36,453000.0,40.0,Eels,Tigers,6,32,2025-03-16 16:05:00
+63,Joe,Ofahengaue,Parramatta Eels,,2025,1,1,Storm,28,0,0,0,18,1,0,0,0,38,19,469000.0,36.0,Storm,Eels,56,18,2025-03-09 16:05:00
+63,Joe,Ofahengaue,Parramatta Eels,,2025,2,2,Knights,80,0,0,0,25,1,0,0,0,98,32,,,Knights,Eels,18,44,2025-02-14 18:00:00
+71,Chad,Townsend,Sydney Roosters,,2025,20,20,Sharks,80,0,0,0,33,5,0,0,4,40,32,503000.0,38.0,Sharks,Roosters,31,18,2025-07-18 18:00:00
+71,Chad,Townsend,Sydney Roosters,,2025,5,5,Rabbitohs,80,0,0,0,30,4,1,1,2,44,34,517000.0,28.0,Rabbitohs,Roosters,20,14,2025-04-04 20:00:00
+71,Chad,Townsend,Sydney Roosters,,2025,4,4,Titans,80,0,0,0,27,3,0,0,1,3,34,510000.0,17.0,Roosters,Titans,12,30,2025-03-28 18:00:00
+71,Chad,Townsend,Sydney Roosters,,2025,3,3,Warriors,80,0,0,0,42,2,0,0,1,38,63,492000.0,30.0,Warriors,Roosters,14,6,2025-03-21 18:00:00
+71,Chad,Townsend,Sydney Roosters,,2025,2,2,Panthers,77,0,0,0,23,2,0,0,0,42,42,455000.0,45.0,Panthers,Roosters,32,38,2025-03-14 20:00:00
+71,Chad,Townsend,Sydney Roosters,,2025,1,1,Broncos,80,0,0,0,24,2,0,0,0,19,33,448000.0,33.0,Roosters,Broncos,14,50,2025-03-06 20:00:00
+71,Chad,Townsend,Sydney Roosters,,2025,3,3,Knights,80,0,0,0,27,1,0,0,0,43,35,,,Roosters,Knights,10,48,2025-02-23 15:15:00
+71,Chad,Townsend,Sydney Roosters,,2025,2,2,Dragons,80,0,0,0,14,3,0,0,0,37,16,,,Dragons,Roosters,26,8,2025-02-16 19:30:00
+78,Wiremu,Greig,Parramatta Eels,,2025,3,3,Wests Tigers,80,0,0,0,26,3,0,0,1,62,28,,,Wests Tigers,Eels,30,18,2025-02-21 20:00:00
+78,Wiremu,Greig,Parramatta Eels,,2025,2,2,Knights,80,0,0,0,10,0,0,0,0,60,14,,,Knights,Eels,18,44,2025-02-14 18:00:00
+108,Jordan,McLean,North Queensland Cowboys,,2025,26,26,Broncos,44,0,0,0,14,1,0,0,1,157,25,350000.0,26.0,Cowboys,Broncos,30,38,2025-08-30 19:35:00
+108,Jordan,McLean,North Queensland Cowboys,,2025,25,25,Tigers,47,0,0,0,22,0,0,1,0,101,34,356000.0,32.0,Tigers,Cowboys,28,34,2025-08-24 16:05:00
+108,Jordan,McLean,North Queensland Cowboys,,2025,24,24,Knights,36,0,0,0,16,0,0,0,0,125,27,357000.0,33.0,Cowboys,Knights,38,4,2025-08-17 16:05:00
+108,Jordan,McLean,North Queensland Cowboys,,2025,19,19,Bulldogs,19,0,0,0,10,0,2,0,1,21,14,365000.0,27.0,Cowboys,Bulldogs,8,12,2025-07-12 19:35:00
+108,Jordan,McLean,North Queensland Cowboys,,2025,18,18,Storm,46,0,0,0,27,0,0,0,0,86,35,379000.0,28.0,Cowboys,Storm,20,26,2025-07-05 19:35:00
+108,Jordan,McLean,North Queensland Cowboys,,2025,16,16,Roosters,40,0,0,0,28,1,0,0,0,72,33,377000.0,35.0,Roosters,Cowboys,42,8,2025-06-22 16:05:00
+108,Jordan,McLean,North Queensland Cowboys,,2025,15,15,Dolphins,38,0,0,0,15,0,0,0,0,138,28,380000.0,30.0,Cowboys,Dolphins,4,58,2025-06-14 19:35:00
+108,Jordan,McLean,North Queensland Cowboys,,2025,14,14,Storm,33,0,0,0,22,0,0,0,0,66,27,386000.0,25.0,Storm,Cowboys,38,14,2025-06-06 18:00:00
+108,Jordan,McLean,North Queensland Cowboys,,2025,13,13,Tigers,48,0,0,0,26,1,2,0,0,121,38,384000.0,24.0,Cowboys,Tigers,32,28,2025-05-31 17:30:00
+108,Jordan,McLean,North Queensland Cowboys,,2025,11,11,Sea Eagles,37,0,0,0,18,0,0,0,0,83,25,374000.0,20.0,Cowboys,Sea Eagles,6,24,2025-05-17 17:30:00
+110,Nelson,Asofa-Solomona,Melbourne Storm,,2025,27,27,Broncos,34,0,0,0,15,1,4,0,0,139,27,365000.0,43.0,Broncos,Storm,30,14,2025-09-04 19:50:00
+110,Nelson,Asofa-Solomona,Melbourne Storm,,2025,26,26,Roosters,42,0,0,0,28,2,0,0,0,42,22,387000.0,45.0,Storm,Roosters,10,40,2025-08-29 20:00:00
+110,Nelson,Asofa-Solomona,Melbourne Storm,,2025,20,20,Sea Eagles,18,0,0,0,12,0,3,1,0,64,26,416000.0,49.0,Storm,Sea Eagles,16,18,2025-07-19 19:35:00
+110,Nelson,Asofa-Solomona,Melbourne Storm,,2025,19,19,Knights,30,0,0,0,8,1,1,1,1,89,18,445000.0,41.0,Knights,Storm,14,32,2025-07-12 15:00:00
+110,Nelson,Asofa-Solomona,Melbourne Storm,,2025,18,18,Cowboys,24,1,0,1,8,0,4,0,2,71,29,470000.0,32.0,Cowboys,Storm,20,26,2025-07-05 19:35:00
+110,Nelson,Asofa-Solomona,Melbourne Storm,,2025,17,17,Sharks,33,0,1,0,9,0,2,3,0,85,40,480000.0,34.0,Storm,Sharks,30,6,2025-06-29 14:00:00
+110,Nelson,Asofa-Solomona,Melbourne Storm,,2025,16,16,Rabbitohs,35,0,0,0,13,0,4,0,2,115,31,473000.0,16.0,Rabbitohs,Storm,24,25,2025-06-21 19:35:00
+110,Nelson,Asofa-Solomona,Melbourne Storm,,2025,14,14,Cowboys,43,1,0,1,18,1,9,1,0,119,61,459000.0,25.0,Storm,Cowboys,38,14,2025-06-06 18:00:00
+110,Nelson,Asofa-Solomona,Melbourne Storm,,2025,13,13,Titans,39,0,0,0,16,1,3,0,0,90,33,421000.0,16.0,Titans,Storm,16,28,2025-05-31 15:00:00
+110,Nelson,Asofa-Solomona,Melbourne Storm,,2025,11,11,Sharks,40,0,0,0,16,1,2,1,0,158,37,409000.0,15.0,Sharks,Storm,31,26,2025-05-17 19:35:00
+135,Kieran,Foran,Gold Coast Titans,,2025,27,27,Tigers,80,0,2,1,19,5,1,2,0,54,42,377000.0,25.0,Titans,Tigers,36,28,2025-09-06 17:30:00
+135,Kieran,Foran,Gold Coast Titans,,2025,26,26,Dolphins,80,1,0,1,21,2,1,0,1,40,37,364000.0,36.0,Dolphins,Titans,36,30,2025-08-31 16:05:00
+135,Kieran,Foran,Gold Coast Titans,,2025,25,25,Warriors,60,0,0,0,19,4,0,1,0,41,17,367000.0,29.0,Titans,Warriors,18,32,2025-08-23 17:30:00
+135,Kieran,Foran,Gold Coast Titans,,2025,24,24,Sharks,80,0,0,0,25,4,1,0,0,86,37,383000.0,40.0,Sharks,Titans,54,22,2025-08-16 15:00:00
+135,Kieran,Foran,Gold Coast Titans,,2025,23,23,Rabbitohs,80,0,1,0,12,5,0,0,0,108,23,384000.0,34.0,Titans,Rabbitohs,18,20,2025-08-10 14:00:00
+135,Kieran,Foran,Gold Coast Titans,,2025,22,22,Panthers,84,0,0,0,16,1,0,0,0,35,20,399000.0,27.0,Titans,Panthers,26,30,2025-08-02 15:00:00
+135,Kieran,Foran,Gold Coast Titans,,2025,21,21,Warriors,80,0,1,0,25,2,0,1,1,66,40,410000.0,31.0,Warriors,Titans,16,24,2025-07-26 15:00:00
+135,Kieran,Foran,Gold Coast Titans,,2025,20,20,Tigers,80,0,1,0,23,1,0,0,0,13,29,406000.0,27.0,Tigers,Titans,21,20,2025-07-20 14:00:00
+135,Kieran,Foran,Gold Coast Titans,,2025,19,19,Broncos,80,0,0,0,23,3,1,1,0,37,32,410000.0,31.0,Titans,Broncos,14,26,2025-07-13 18:15:00
+135,Kieran,Foran,Gold Coast Titans,,2025,17,17,Cowboys,80,0,1,0,21,2,0,0,1,36,28,410000.0,33.0,Titans,Cowboys,24,30,2025-06-29 16:05:00
+152,Michael ,Chee Kam,Manly-Warringah Sea Eagles,,2025,23,23,Raiders,67,0,0,0,25,0,1,1,0,66,35,381000.0,29.0,Raiders,Sea Eagles,28,12,2025-08-08 20:00:00
+152,Michael ,Chee Kam,Manly-Warringah Sea Eagles,,2025,3,3,Panthers,80,0,0,0,27,3,1,0,1,49,25,,,Sea Eagles,Panthers,22,38,2025-02-21 18:00:00
+152,Michael ,Chee Kam,Manly-Warringah Sea Eagles,,2025,2,2,Rabbitohs,80,0,0,0,25,2,0,0,1,67,28,,,Rabbitohs,Sea Eagles,24,34,2025-02-15 15:30:00
+155,Siliva,Havili,South Sydney Rabbitohs,,2025,27,27,Roosters,37,0,0,0,26,1,1,0,0,22,27,293000.0,33.0,Roosters,Rabbitohs,36,6,2025-09-05 20:00:00
+155,Siliva,Havili,South Sydney Rabbitohs,,2025,25,25,Dragons,23,0,0,0,18,1,0,0,0,0,16,303000.0,30.0,Rabbitohs,Dragons,40,0,2025-08-21 19:50:00
+155,Siliva,Havili,South Sydney Rabbitohs,,2025,24,24,Eels,29,0,0,0,14,2,1,0,0,64,18,320000.0,30.0,Rabbitohs,Eels,20,16,2025-08-16 19:35:00
+155,Siliva,Havili,South Sydney Rabbitohs,,2025,23,23,Titans,22,0,0,0,17,1,0,0,0,37,18,332000.0,23.0,Titans,Rabbitohs,18,20,2025-08-10 14:00:00
+155,Siliva,Havili,South Sydney Rabbitohs,,2025,22,22,Broncos,59,0,0,0,30,1,1,0,0,8,33,340000.0,32.0,Broncos,Rabbitohs,60,14,2025-08-01 20:00:00
+155,Siliva,Havili,South Sydney Rabbitohs,,2025,21,21,Sharks,19,0,0,0,23,0,0,0,0,36,26,342000.0,38.0,Rabbitohs,Sharks,12,14,2025-07-26 19:35:00
+155,Siliva,Havili,South Sydney Rabbitohs,,2025,20,20,Panthers,30,0,0,0,20,1,1,0,0,30,21,359000.0,43.0,Panthers,Rabbitohs,30,10,2025-07-18 20:00:00
+155,Siliva,Havili,South Sydney Rabbitohs,,2025,18,18,Sea Eagles,21,0,0,0,19,1,2,0,1,35,23,387000.0,49.0,Sea Eagles,Rabbitohs,30,12,2025-07-06 16:05:00
+155,Siliva,Havili,South Sydney Rabbitohs,,2025,17,17,Dolphins,34,0,0,0,22,2,0,0,0,5,22,419000.0,46.0,Dolphins,Rabbitohs,50,28,2025-06-28 19:35:00
+155,Siliva,Havili,South Sydney Rabbitohs,,2025,16,16,Storm,46,0,0,0,30,3,0,0,0,15,25,443000.0,37.0,Rabbitohs,Storm,24,25,2025-06-21 19:35:00
+165,Danny,Levi,Canberra Raiders,,2025,27,27,Dolphins,29,0,1,0,7,0,1,0,0,26,18,299000.0,24.0,Dolphins,Raiders,62,24,2025-09-07 14:00:00
+165,Danny,Levi,Canberra Raiders,,2025,13,13,Roosters,33,0,0,0,23,2,0,0,1,11,23,309000.0,24.0,Roosters,Raiders,24,26,2025-06-01 18:15:00
+165,Danny,Levi,Canberra Raiders,,2025,2,2,Sharks,80,0,0,0,21,2,1,0,1,36,20,,,Raiders,Sharks,10,40,2025-02-13 19:50:00
+172,Reagan,Campbell-Gillard,Gold Coast Titans,,2025,27,27,Tigers,26,0,0,0,15,5,0,0,2,59,6,416000.0,31.0,Titans,Tigers,36,28,2025-09-06 17:30:00
+172,Reagan,Campbell-Gillard,Gold Coast Titans,,2025,26,26,Dolphins,39,0,0,0,29,0,0,1,0,61,39,448000.0,33.0,Dolphins,Titans,36,30,2025-08-31 16:05:00
+172,Reagan,Campbell-Gillard,Gold Coast Titans,,2025,25,25,Warriors,57,0,0,0,30,0,0,0,0,82,38,448000.0,35.0,Titans,Warriors,18,32,2025-08-23 17:30:00
+172,Reagan,Campbell-Gillard,Gold Coast Titans,,2025,24,24,Sharks,48,0,0,0,22,2,0,1,0,73,27,449000.0,26.0,Sharks,Titans,54,22,2025-08-16 15:00:00
+172,Reagan,Campbell-Gillard,Gold Coast Titans,,2025,23,23,Rabbitohs,52,0,0,0,22,0,2,1,0,93,37,452000.0,27.0,Titans,Rabbitohs,18,20,2025-08-10 14:00:00
+172,Reagan,Campbell-Gillard,Gold Coast Titans,,2025,22,22,Panthers,52,0,0,0,36,4,1,1,0,96,43,445000.0,29.0,Titans,Panthers,26,30,2025-08-02 15:00:00
+172,Reagan,Campbell-Gillard,Gold Coast Titans,,2025,21,21,Warriors,45,0,0,0,24,3,1,1,0,135,37,435000.0,32.0,Warriors,Titans,16,24,2025-07-26 15:00:00
+172,Reagan,Campbell-Gillard,Gold Coast Titans,,2025,20,20,Tigers,44,0,0,0,36,4,0,0,1,83,31,435000.0,27.0,Tigers,Titans,21,20,2025-07-20 14:00:00
+172,Reagan,Campbell-Gillard,Gold Coast Titans,,2025,19,19,Broncos,41,0,0,0,22,0,3,0,0,80,35,436000.0,29.0,Titans,Broncos,14,26,2025-07-13 18:15:00
+172,Reagan,Campbell-Gillard,Gold Coast Titans,,2025,17,17,Cowboys,53,0,0,0,29,0,4,1,1,79,44,432000.0,39.0,Titans,Cowboys,24,30,2025-06-29 16:05:00
+194,Bunty,Afoa,Wests Tigers,,2025,12,12,Raiders,33,0,0,0,25,2,0,0,0,68,27,267000.0,26.0,Warriors,Raiders,10,16,2025-05-25 16:05:00
+194,Bunty,Afoa,Wests Tigers,,2025,10,10,Dragons,23,0,0,0,15,1,1,0,0,72,22,269000.0,31.0,Dragons,Warriors,14,15,2025-05-10 17:30:00
+194,Bunty,Afoa,Wests Tigers,,2025,9,9,Cowboys,11,0,0,0,17,0,0,0,0,10,18,282000.0,32.0,Warriors,Cowboys,30,26,2025-05-03 17:30:00
+194,Bunty,Afoa,Wests Tigers,,2025,8,8,Knights,15,0,0,0,11,1,0,0,0,43,10,299000.0,24.0,Warriors,Knights,26,12,2025-04-25 18:05:00
+194,Bunty,Afoa,Wests Tigers,,2025,7,7,Broncos,18,0,0,0,14,1,0,0,0,56,16,314000.0,15.0,Warriors,Broncos,20,18,2025-04-19 17:30:00
+194,Bunty,Afoa,Wests Tigers,,2025,6,6,Storm,42,0,0,0,23,1,1,0,0,107,32,311000.0,17.0,Storm,Warriors,42,14,2025-04-13 14:00:00
+194,Bunty,Afoa,Wests Tigers,,2025,4,4,Tigers,26,0,0,0,15,0,2,0,0,114,30,294000.0,22.0,Tigers,Warriors,24,26,2025-03-30 18:15:00
+194,Bunty,Afoa,Wests Tigers,,2025,2,2,Storm,80,0,0,0,22,0,1,0,0,77,31,,,Warriors,Storm,36,10,2025-02-15 13:30:00
+194,Bunty,Afoa,Wests Tigers,,2025,1,1,Sharks,80,0,0,0,30,0,1,0,0,93,42,,,Sharks,Warriors,12,12,2025-02-07 19:30:00
+198,Kenneath,Bromwich,Dolphins,,2025,8,8,Raiders,14,0,0,0,11,1,0,0,0,8,9,368000.0,40.0,Raiders,Dolphins,40,28,2025-04-27 14:00:00
+198,Kenneath,Bromwich,Dolphins,,2025,4,4,Broncos,16,0,0,0,12,0,0,0,0,63,18,404000.0,32.0,Dolphins,Broncos,12,20,2025-03-28 20:00:00
+198,Kenneath,Bromwich,Dolphins,,2025,3,3,Titans,70,0,0,0,20,1,0,0,0,53,16,,,Dolphins,Titans,18,26,2025-02-22 19:30:00
+254,Kane,Bradley,Melbourne Storm,,2025,26,26,Roosters,80,0,0,0,3,1,0,0,2,109,12,283000.0,19.0,Storm,Roosters,10,40,2025-08-29 20:00:00
+254,Kane,Bradley,Melbourne Storm,,2025,21,21,Roosters,80,0,0,0,3,0,4,0,2,83,17,294000.0,10.0,Roosters,Storm,30,34,2025-07-24 19:50:00
+254,Kane,Bradley,Melbourne Storm,,2025,19,19,Knights,80,2,0,1,12,2,0,1,2,69,33,290000.0,15.0,Knights,Storm,14,32,2025-07-12 15:00:00
+254,Kane,Bradley,Melbourne Storm,,2025,18,18,Cowboys,80,0,0,0,7,0,2,0,0,125,24,271000.0,14.0,Cowboys,Storm,20,26,2025-07-05 19:35:00
+254,Kane,Bradley,Melbourne Storm,,2025,7,7,Dolphins,80,2,0,0,3,3,3,0,1,127,31,263000.0,19.0,Dolphins,Storm,42,22,2025-04-18 20:00:00
+254,Kane,Bradley,Melbourne Storm,,2025,3,3,Cowboys,80,0,0,1,3,1,0,1,0,101,15,,,Storm,Cowboys,24,36,2025-02-23 17:15:00
+254,Kane,Bradley,Melbourne Storm,,2025,2,2,Warriors,80,1,0,0,6,3,2,0,0,118,34,,,Warriors,Storm,36,10,2025-02-15 13:30:00
+259,Ken,Maumalo,Gold Coast Titans,,2025,2,2,Broncos,80,0,0,0,0,1,0,0,1,54,5,,,Broncos,Titans,50,12,2025-02-16 15:30:00
+272,Jensen,Taumoepeau,Gold Coast Titans,,2025,2,2,Sharks,80,0,0,0,0,1,1,0,3,77,0,,,Raiders,Sharks,10,40,2025-02-13 19:50:00
+272,Jensen,Taumoepeau,Gold Coast Titans,,2025,1,1,Panthers,80,0,0,1,2,1,4,0,1,66,16,,,Panthers,Raiders,16,22,2025-02-08 19:30:00
+273,Josh,Aloiai,Manly-Warringah Sea Eagles,,2025,13,13,Broncos,21,0,0,0,14,0,0,0,0,59,19,367000.0,25.0,Sea Eagles,Broncos,34,6,2025-05-31 19:35:00
+273,Josh,Aloiai,Manly-Warringah Sea Eagles,,2025,6,6,Sharks,39,0,0,0,25,0,0,0,0,86,33,379000.0,28.0,Sharks,Sea Eagles,24,18,2025-04-12 15:00:00
+273,Josh,Aloiai,Manly-Warringah Sea Eagles,,2025,4,4,Eels,37,0,0,0,17,1,2,1,0,92,30,373000.0,29.0,Sea Eagles,Eels,26,12,2025-03-30 16:05:00
+273,Josh,Aloiai,Manly-Warringah Sea Eagles,,2025,3,3,Raiders,44,0,0,0,16,2,3,0,0,128,30,374000.0,31.0,Sea Eagles,Raiders,40,12,2025-03-23 18:15:00
+273,Josh,Aloiai,Manly-Warringah Sea Eagles,,2025,2,2,Warriors,31,0,0,0,19,1,0,0,0,66,25,375000.0,27.0,Warriors,Sea Eagles,36,16,2025-03-14 18:00:00
+275,Nathaniel,Roache,Manly-Warringah Sea Eagles,,2025,3,3,Cowboys,80,0,0,0,9,0,0,0,0,17,10,,,Storm,Cowboys,24,36,2025-02-23 17:15:00
+275,Nathaniel,Roache,Manly-Warringah Sea Eagles,,2025,2,2,Warriors,80,0,0,0,32,0,3,1,0,40,48,,,Warriors,Storm,36,10,2025-02-15 13:30:00
+303,Mark,Nicholls,Dolphins,,2025,27,27,Raiders,25,1,0,1,10,2,3,0,1,39,27,236000.0,26.0,Dolphins,Raiders,62,24,2025-09-07 14:00:00
+303,Mark,Nicholls,Dolphins,,2025,26,26,Titans,14,0,0,0,7,2,1,0,0,43,9,238000.0,25.0,Dolphins,Titans,36,30,2025-08-31 16:05:00
+303,Mark,Nicholls,Dolphins,,2025,25,25,Sea Eagles,34,0,0,0,24,1,0,0,0,31,25,259000.0,39.0,Sea Eagles,Dolphins,58,30,2025-08-23 15:00:00
+303,Mark,Nicholls,Dolphins,,2025,24,24,Broncos,27,0,0,0,18,6,1,0,0,26,9,276000.0,47.0,Broncos,Dolphins,38,28,2025-08-16 17:30:00
+303,Mark,Nicholls,Dolphins,,2025,23,23,Roosters,20,0,0,0,12,0,0,0,1,44,14,310000.0,41.0,Dolphins,Roosters,12,64,2025-08-09 17:30:00
+303,Mark,Nicholls,Dolphins,,2025,22,22,Warriors,25,0,0,0,13,1,2,0,0,64,18,341000.0,44.0,Warriors,Dolphins,18,20,2025-08-01 18:00:00
+303,Mark,Nicholls,Dolphins,,2025,19,19,Sharks,7,0,0,0,9,1,0,0,0,17,8,372000.0,36.0,Sharks,Dolphins,24,12,2025-07-11 20:00:00
+303,Mark,Nicholls,Dolphins,,2025,17,17,Rabbitohs,44,0,0,0,22,2,0,1,0,101,30,402000.0,40.0,Dolphins,Rabbitohs,50,28,2025-06-28 19:35:00
+303,Mark,Nicholls,Dolphins,,2025,16,16,Knights,44,0,0,0,19,2,2,0,0,126,31,411000.0,42.0,Dolphins,Knights,20,26,2025-06-21 17:30:00
+303,Mark,Nicholls,Dolphins,,2025,15,15,Cowboys,38,0,0,0,18,1,0,0,2,130,25,423000.0,36.0,Cowboys,Dolphins,4,58,2025-06-14 19:35:00
+350,Bryce,Cartwright,Parramatta Eels,,2025,3,3,Wests Tigers,80,0,0,0,10,3,1,1,1,32,10,,,Wests Tigers,Eels,30,18,2025-02-21 20:00:00
+350,Bryce,Cartwright,Parramatta Eels,,2025,2,2,Knights,80,0,0,0,12,2,0,1,0,37,13,,,Knights,Eels,18,44,2025-02-14 18:00:00
+412,Ryan,Papenhuyzen,Melbourne Storm,,2025,31,GF,Broncos,80,0,1,1,6,2,2,0,1,235,43,,,Storm,Broncos,22,26,2025-10-05 19:30:00
+412,Ryan,Papenhuyzen,Melbourne Storm,,2025,30,FW3,Sharks,80,1,0,0,2,0,6,3,1,158,50,,,Storm,Sharks,22,14,2025-09-26 19:50:00
+412,Ryan,Papenhuyzen,Melbourne Storm,,2025,27,27,Broncos,79,0,1,0,0,0,3,0,2,177,19,495000.0,51.0,Broncos,Storm,30,14,2025-09-04 19:50:00
+412,Ryan,Papenhuyzen,Melbourne Storm,,2025,26,26,Roosters,80,0,1,0,6,3,1,0,4,94,19,535000.0,40.0,Storm,Roosters,10,40,2025-08-29 20:00:00
+412,Ryan,Papenhuyzen,Melbourne Storm,,2025,25,25,Bulldogs,80,1,0,1,8,2,2,0,1,132,48,564000.0,46.0,Storm,Bulldogs,20,14,2025-08-22 20:00:00
+412,Ryan,Papenhuyzen,Melbourne Storm,,2025,23,23,Broncos,80,1,0,1,2,0,5,1,3,220,49,566000.0,52.0,Storm,Broncos,22,2,2025-08-07 19:50:00
+412,Ryan,Papenhuyzen,Melbourne Storm,,2025,22,22,Eels,80,0,0,0,2,1,6,1,2,200,42,574000.0,56.0,Eels,Storm,10,16,2025-07-31 19:50:00
+412,Ryan,Papenhuyzen,Melbourne Storm,,2025,17,17,Sharks,74,0,0,0,2,2,3,0,1,158,29,594000.0,63.0,Storm,Sharks,30,6,2025-06-29 14:00:00
+412,Ryan,Papenhuyzen,Melbourne Storm,,2025,16,16,Rabbitohs,84,0,1,0,2,0,2,1,2,141,43,626000.0,56.0,Rabbitohs,Storm,24,25,2025-06-21 19:35:00
+412,Ryan,Papenhuyzen,Melbourne Storm,,2025,14,14,Cowboys,80,0,0,0,5,2,5,2,1,172,59,641000.0,58.0,Storm,Cowboys,38,14,2025-06-06 18:00:00
+418,Brandon,Wakeham,Manly-Warringah Sea Eagles,,2025,3,3,Panthers,80,0,0,0,4,1,0,0,0,20,5,,,Sea Eagles,Panthers,22,38,2025-02-21 18:00:00
+423,Albert,Hopoate,Canberra Raiders,,2025,2,2,Broncos,80,0,0,0,4,3,1,0,2,127,9,377000.0,25.0,Raiders,Broncos,32,22,2025-03-15 19:35:00
+423,Albert,Hopoate,Canberra Raiders,,2025,2,2,Sharks,80,0,0,0,11,1,1,1,1,129,23,,,Raiders,Sharks,10,40,2025-02-13 19:50:00
+423,Albert,Hopoate,Canberra Raiders,,2025,1,1,Panthers,80,0,0,0,9,1,7,0,1,123,31,,,Panthers,Raiders,16,22,2025-02-08 19:30:00
+427,Corey,Allan,St George-Illawarra Dragons,,2025,27,27,Panthers,80,1,0,1,3,0,3,0,0,117,36,343000.0,35.0,Dragons,Panthers,20,40,2025-09-06 15:00:00
+427,Corey,Allan,St George-Illawarra Dragons,,2025,25,25,Rabbitohs,80,0,0,0,10,2,0,0,1,167,22,347000.0,34.0,Rabbitohs,Dragons,40,0,2025-08-21 19:50:00
+427,Corey,Allan,St George-Illawarra Dragons,,2025,24,24,Warriors,80,0,0,0,4,0,2,1,0,148,30,362000.0,41.0,Warriors,Dragons,14,10,2025-08-15 18:00:00
+427,Corey,Allan,St George-Illawarra Dragons,,2025,23,23,Sharks,80,0,0,0,4,0,0,0,1,74,10,372000.0,22.0,Dragons,Sharks,22,14,2025-08-09 15:00:00
+427,Corey,Allan,St George-Illawarra Dragons,,2025,22,22,Raiders,80,1,0,1,3,0,1,0,0,94,26,387000.0,12.0,Dragons,Raiders,18,12,2025-08-02 17:30:00
+427,Corey,Allan,St George-Illawarra Dragons,,2025,21,21,Cowboys,76,1,0,2,2,0,3,0,1,161,46,376000.0,18.0,Cowboys,Dragons,38,32,2025-07-25 18:00:00
+427,Corey,Allan,St George-Illawarra Dragons,,2025,20,20,Bulldogs,80,0,0,0,12,2,4,0,0,111,32,353000.0,17.0,Bulldogs,Dragons,20,18,2025-07-19 17:30:00
+427,Corey,Allan,St George-Illawarra Dragons,,2025,18,18,Raiders,80,0,0,0,8,4,3,2,0,164,30,342000.0,18.0,Raiders,Dragons,28,24,2025-07-05 17:30:00
+427,Corey,Allan,St George-Illawarra Dragons,,2025,17,17,Eels,67,1,0,1,4,2,2,2,1,132,36,334000.0,24.0,Dragons,Eels,34,20,2025-06-28 17:30:00
+427,Corey,Allan,St George-Illawarra Dragons,,2025,11,11,Broncos,80,0,0,0,3,0,2,0,1,108,25,321000.0,17.0,Broncos,Dragons,26,30,2025-05-18 14:00:00
+430,Mikaele,Ravalawa,South Sydney Rabbitohs,,2025,5,5,Roosters,48,0,0,0,0,1,2,0,0,58,7,322000.0,33.0,Rabbitohs,Roosters,20,14,2025-04-04 20:00:00
+430,Mikaele,Ravalawa,South Sydney Rabbitohs,,2025,4,4,Panthers,80,0,0,0,3,3,3,0,0,201,23,351000.0,33.0,Rabbitohs,Panthers,28,18,2025-03-27 20:00:00
+430,Mikaele,Ravalawa,South Sydney Rabbitohs,,2025,3,3,Sharks,80,0,0,1,3,4,1,0,1,148,20,364000.0,28.0,Sharks,Rabbitohs,27,12,2025-03-22 15:00:00
+430,Mikaele,Ravalawa,South Sydney Rabbitohs,,2025,2,2,Roosters,80,1,0,1,3,2,2,0,0,101,25,,,Dragons,Roosters,26,8,2025-02-16 19:30:00
+444,Zac,Lomax,Parramatta Eels,,2025,27,27,Knights,80,0,0,1,2,1,13,4,1,212,84,552000.0,47.0,Eels,Knights,66,10,2025-09-07 16:05:00
+444,Zac,Lomax,Parramatta Eels,,2025,26,26,Warriors,80,0,0,0,6,1,1,0,0,241,41,520000.0,59.0,Warriors,Eels,22,26,2025-08-29 18:00:00
+444,Zac,Lomax,Parramatta Eels,,2025,25,25,Roosters,80,0,0,0,3,1,1,1,2,99,14,546000.0,44.0,Eels,Roosters,30,10,2025-08-23 19:35:00
+444,Zac,Lomax,Parramatta Eels,,2025,24,24,Rabbitohs,80,2,0,2,7,1,4,3,4,235,65,582000.0,70.0,Rabbitohs,Eels,20,16,2025-08-16 19:35:00
+444,Zac,Lomax,Parramatta Eels,,2025,23,23,Cowboys,80,0,0,0,4,2,2,3,4,148,27,584000.0,53.0,Eels,Cowboys,19,18,2025-08-10 16:05:00
+444,Zac,Lomax,Parramatta Eels,,2025,22,22,Storm,80,0,0,1,6,0,0,1,3,184,29,615000.0,36.0,Eels,Storm,10,16,2025-07-31 19:50:00
+444,Zac,Lomax,Parramatta Eels,,2025,21,21,Broncos,80,2,0,1,11,1,5,0,3,158,52,629000.0,32.0,Broncos,Eels,20,22,2025-07-25 20:00:00
+444,Zac,Lomax,Parramatta Eels,,2025,20,20,Raiders,80,1,0,1,2,2,5,4,4,253,59,615000.0,38.0,Raiders,Eels,40,16,2025-07-19 15:00:00
+444,Zac,Lomax,Parramatta Eels,,2025,19,19,Panthers,80,1,0,1,10,3,3,3,4,202,53,601000.0,51.0,Eels,Panthers,10,32,2025-07-13 16:05:00
+444,Zac,Lomax,Parramatta Eels,,2025,3,G3,Maroons,80,0,0,0,8,3,3,1,3,187,29,,,Blues,Maroons,12,24,2025-07-09 20:05:00
+454,Ben,Murdoch-Masila,St George-Illawarra Dragons,,2025,25,25,Rabbitohs,10,0,0,0,7,0,1,0,0,27,11,286000.0,23.0,Rabbitohs,Dragons,40,0,2025-08-21 19:50:00
+459,Tui,Kamikamica,Melbourne Storm,,2025,31,GF,Broncos,19,0,0,0,16,0,0,0,1,59,19,,,Storm,Broncos,22,26,2025-10-05 19:30:00
+459,Tui,Kamikamica,Melbourne Storm,,2025,30,FW3,Sharks,25,0,0,0,15,1,1,0,0,90,24,,,Storm,Sharks,22,14,2025-09-26 19:50:00
+459,Tui,Kamikamica,Melbourne Storm,,2025,28,FW1,Bulldogs,19,0,0,0,15,1,0,0,0,41,17,,,Storm,Bulldogs,26,18,2025-09-12 19:50:00
+459,Tui,Kamikamica,Melbourne Storm,,2025,27,27,Broncos,19,0,0,0,11,0,0,0,0,30,14,244000.0,27.0,Broncos,Storm,30,14,2025-09-04 19:50:00
+459,Tui,Kamikamica,Melbourne Storm,,2025,25,25,Bulldogs,17,0,0,0,7,0,0,0,1,19,6,261000.0,15.0,Storm,Bulldogs,20,14,2025-08-22 20:00:00
+459,Tui,Kamikamica,Melbourne Storm,,2025,24,24,Panthers,24,0,0,0,18,1,1,0,0,51,23,273000.0,10.0,Panthers,Storm,18,22,2025-08-14 19:50:00
+459,Tui,Kamikamica,Melbourne Storm,,2025,23,23,Broncos,29,0,0,0,16,1,0,0,0,53,19,264000.0,7.0,Storm,Broncos,22,2,2025-08-07 19:50:00
+459,Tui,Kamikamica,Melbourne Storm,,2025,22,22,Eels,27,1,0,1,16,1,1,0,0,70,35,253000.0,13.0,Eels,Storm,10,16,2025-07-31 19:50:00
+459,Tui,Kamikamica,Melbourne Storm,,2025,21,21,Roosters,24,0,0,0,21,1,0,0,0,29,19,232000.0,13.0,Roosters,Storm,30,34,2025-07-24 19:50:00
+459,Tui,Kamikamica,Melbourne Storm,,2025,20,20,Sea Eagles,33,0,0,0,21,1,2,0,2,58,22,230000.0,17.0,Storm,Sea Eagles,16,18,2025-07-19 19:35:00
+460,Toafofoa,Sipley,Manly-Warringah Sea Eagles,,2025,26,26,Dragons,26,0,0,0,14,0,1,1,0,109,23,337000.0,29.0,Dragons,Sea Eagles,24,40,2025-08-30 17:30:00
+460,Toafofoa,Sipley,Manly-Warringah Sea Eagles,,2025,25,25,Dolphins,24,0,0,0,11,0,0,1,1,115,25,348000.0,28.0,Sea Eagles,Dolphins,58,30,2025-08-23 15:00:00
+460,Toafofoa,Sipley,Manly-Warringah Sea Eagles,,2025,24,24,Tigers,23,0,0,0,21,1,0,0,0,18,20,353000.0,21.0,Tigers,Sea Eagles,26,12,2025-08-17 14:00:00
+460,Toafofoa,Sipley,Manly-Warringah Sea Eagles,,2025,23,23,Raiders,28,0,0,0,18,2,2,1,0,113,33,358000.0,26.0,Raiders,Sea Eagles,28,12,2025-08-08 20:00:00
+460,Toafofoa,Sipley,Manly-Warringah Sea Eagles,,2025,22,22,Roosters,34,0,0,0,23,1,1,0,0,69,33,353000.0,34.0,Sea Eagles,Roosters,4,20,2025-08-02 19:35:00
+460,Toafofoa,Sipley,Manly-Warringah Sea Eagles,,2025,21,21,Bulldogs,30,0,0,0,18,0,1,0,0,56,23,358000.0,37.0,Bulldogs,Sea Eagles,42,4,2025-07-27 16:05:00
+460,Toafofoa,Sipley,Manly-Warringah Sea Eagles,,2025,20,20,Storm,23,0,0,0,21,1,0,0,0,69,25,377000.0,34.0,Storm,Sea Eagles,16,18,2025-07-19 19:35:00
+460,Toafofoa,Sipley,Manly-Warringah Sea Eagles,,2025,18,18,Rabbitohs,28,0,0,0,11,0,1,0,0,133,26,391000.0,33.0,Sea Eagles,Rabbitohs,30,12,2025-07-06 16:05:00
+460,Toafofoa,Sipley,Manly-Warringah Sea Eagles,,2025,17,17,Tigers,28,0,0,0,14,0,0,0,0,80,22,404000.0,29.0,Sea Eagles,Tigers,28,10,2025-06-27 18:00:00
+460,Toafofoa,Sipley,Manly-Warringah Sea Eagles,,2025,15,15,Titans,26,0,0,1,21,1,1,0,1,59,28,410000.0,23.0,Titans,Sea Eagles,28,8,2025-06-13 20:00:00
+462,Jacob,Host,South Sydney Rabbitohs,,2025,27,27,Roosters,40,0,0,0,21,1,1,0,0,44,25,401000.0,20.0,Roosters,Rabbitohs,36,6,2025-09-05 20:00:00
+462,Jacob,Host,South Sydney Rabbitohs,,2025,25,25,Dragons,56,1,0,0,32,0,1,0,0,94,49,401000.0,31.0,Rabbitohs,Dragons,40,0,2025-08-21 19:50:00
+462,Jacob,Host,South Sydney Rabbitohs,,2025,24,24,Eels,80,0,0,0,27,4,1,0,0,107,25,386000.0,25.0,Rabbitohs,Eels,20,16,2025-08-16 19:35:00
+462,Jacob,Host,South Sydney Rabbitohs,,2025,23,23,Titans,69,0,0,0,27,2,2,0,0,77,33,389000.0,26.0,Titans,Rabbitohs,18,20,2025-08-10 14:00:00
+462,Jacob,Host,South Sydney Rabbitohs,,2025,22,22,Broncos,67,0,0,0,35,3,0,0,2,34,28,384000.0,23.0,Broncos,Rabbitohs,60,14,2025-08-01 20:00:00
+462,Jacob,Host,South Sydney Rabbitohs,,2025,21,21,Sharks,58,0,0,0,34,5,0,0,0,61,33,383000.0,24.0,Rabbitohs,Sharks,12,14,2025-07-26 19:35:00
+462,Jacob,Host,South Sydney Rabbitohs,,2025,20,20,Panthers,80,0,0,0,32,3,1,0,0,95,37,377000.0,29.0,Panthers,Rabbitohs,30,10,2025-07-18 20:00:00
+462,Jacob,Host,South Sydney Rabbitohs,,2025,18,18,Sea Eagles,66,0,1,0,26,4,0,0,0,47,27,372000.0,30.0,Sea Eagles,Rabbitohs,30,12,2025-07-06 16:05:00
+498,Morgan,Harper,Parramatta Eels,,2025,2,2,Warriors,80,0,0,0,6,3,0,0,0,65,6,,,Warriors,Storm,36,10,2025-02-15 13:30:00
+500,Lachlan,Croker,Manly-Warringah Sea Eagles,,2025,15,15,Titans,80,0,0,0,50,7,0,0,0,0,39,364000.0,32.0,Titans,Sea Eagles,28,8,2025-06-13 20:00:00
+500,Lachlan,Croker,Manly-Warringah Sea Eagles,,2025,14,14,Knights,48,0,1,0,30,2,1,0,0,8,39,361000.0,45.0,Knights,Sea Eagles,26,22,2025-06-05 19:50:00
+500,Lachlan,Croker,Manly-Warringah Sea Eagles,,2025,13,13,Broncos,32,0,0,0,19,3,0,0,0,0,15,371000.0,38.0,Sea Eagles,Broncos,34,6,2025-05-31 19:35:00
+500,Lachlan,Croker,Manly-Warringah Sea Eagles,,2025,12,12,Eels,36,0,0,0,20,1,0,0,1,8,19,402000.0,32.0,Eels,Sea Eagles,30,10,2025-05-23 20:00:00
+517,Tom,Amone,Canterbury-Bankstown Bulldogs,,2025,2,2,Wests Tigers,80,0,0,0,27,2,0,0,0,83,35,,,Bulldogs,Wests Tigers,20,14,2025-02-16 17:30:00
+522,Brent,Naden,Wests Tigers,,2025,25,25,Cowboys,80,1,0,0,21,5,0,0,0,40,24,243000.0,21.0,Tigers,Cowboys,28,34,2025-08-24 16:05:00
+522,Brent,Naden,Wests Tigers,,2025,22,22,Bulldogs,80,0,0,0,14,1,1,0,0,66,26,242000.0,36.0,Tigers,Bulldogs,28,14,2025-08-03 14:00:00
+522,Brent,Naden,Wests Tigers,,2025,13,13,Cowboys,24,0,0,0,4,1,0,1,0,49,11,255000.0,35.0,Cowboys,Tigers,32,28,2025-05-31 17:30:00
+522,Brent,Naden,Wests Tigers,,2025,11,11,Rabbitohs,17,0,0,0,4,4,2,1,0,18,3,285000.0,22.0,Tigers,Rabbitohs,12,22,2025-05-18 18:15:00
+522,Brent,Naden,Wests Tigers,,2025,10,10,Storm,80,0,0,0,3,1,5,1,0,149,30,308000.0,27.0,Storm,Tigers,64,0,2025-05-11 14:00:00
+522,Brent,Naden,Wests Tigers,,2025,9,9,Dragons,48,0,0,0,10,3,0,0,1,46,3,308000.0,8.0,Tigers,Dragons,34,28,2025-05-03 19:45:00
+522,Brent,Naden,Wests Tigers,,2025,8,8,Sharks,89,0,0,0,1,0,2,2,0,170,41,314000.0,16.0,Tigers,Sharks,20,18,2025-04-27 16:05:00
+522,Brent,Naden,Wests Tigers,,2025,7,7,Eels,80,0,1,0,15,6,3,1,0,116,30,287000.0,21.0,Tigers,Eels,22,38,2025-04-21 16:00:00
+522,Brent,Naden,Wests Tigers,,2025,3,3,Eels,80,1,0,0,5,3,1,1,1,43,21,,,Wests Tigers,Eels,30,18,2025-02-21 20:00:00
+522,Brent,Naden,Wests Tigers,,2025,1,1,Maori,46,0,0,0,8,0,0,1,1,53,24,,,Indigenous,Maori,6,10,2025-02-15 20:10:00
+535,Drew,Hutchison,Canterbury-Bankstown Bulldogs,,2025,2,2,Wests Tigers,80,0,0,0,9,1,0,0,0,55,14,,,Bulldogs,Wests Tigers,20,14,2025-02-16 17:30:00
+537,Tommy,Talau,Sydney Roosters,,2025,27,27,Warriors,55,0,0,0,8,1,1,0,2,88,14,288000.0,-1.0,Sea Eagles,Warriors,27,26,2025-09-05 18:00:00
+537,Tommy,Talau,Sydney Roosters,,2025,26,26,Dragons,80,1,0,2,15,5,1,1,0,184,49,275000.0,18.0,Dragons,Sea Eagles,24,40,2025-08-30 17:30:00
+537,Tommy,Talau,Sydney Roosters,,2025,25,25,Dolphins,58,0,0,0,14,5,1,1,0,80,24,247000.0,30.0,Sea Eagles,Dolphins,58,30,2025-08-23 15:00:00
+537,Tommy,Talau,Sydney Roosters,,2025,24,24,Tigers,59,0,0,0,12,4,0,1,0,103,18,256000.0,42.0,Tigers,Sea Eagles,26,12,2025-08-17 14:00:00
+537,Tommy,Talau,Sydney Roosters,,2025,23,23,Raiders,80,0,0,0,9,4,4,0,0,102,20,276000.0,43.0,Raiders,Sea Eagles,28,12,2025-08-08 20:00:00
+537,Tommy,Talau,Sydney Roosters,,2025,22,22,Roosters,24,0,0,0,2,1,0,0,0,38,3,302000.0,34.0,Sea Eagles,Roosters,4,20,2025-08-02 19:35:00
+537,Tommy,Talau,Sydney Roosters,,2025,18,18,Rabbitohs,17,0,0,0,3,0,1,0,0,18,6,338000.0,23.0,Sea Eagles,Rabbitohs,30,12,2025-07-06 16:05:00
+537,Tommy,Talau,Sydney Roosters,,2025,15,15,Titans,80,0,0,0,4,1,9,0,2,174,35,360000.0,31.0,Titans,Sea Eagles,28,8,2025-06-13 20:00:00
+537,Tommy,Talau,Sydney Roosters,,2025,14,14,Knights,68,1,0,1,3,3,3,0,0,131,34,358000.0,42.0,Knights,Sea Eagles,26,22,2025-06-05 19:50:00
+537,Tommy,Talau,Sydney Roosters,,2025,13,13,Broncos,80,0,0,0,2,0,2,0,1,145,23,367000.0,42.0,Sea Eagles,Broncos,34,6,2025-05-31 19:35:00
+596,Joey,Lussick,Parramatta Eels,,2025,17,17,Dragons,65,0,0,0,37,1,0,0,0,21,36,406000.0,24.0,Dragons,Eels,34,20,2025-06-28 17:30:00
+596,Joey,Lussick,Parramatta Eels,,2025,16,16,Titans,46,1,0,1,25,1,2,0,0,39,40,392000.0,27.0,Eels,Titans,36,20,2025-06-22 18:15:00
+596,Joey,Lussick,Parramatta Eels,,2025,4,4,Sea Eagles,49,0,0,0,32,0,0,0,0,26,34,379000.0,22.0,Sea Eagles,Eels,26,12,2025-03-30 16:05:00
+596,Joey,Lussick,Parramatta Eels,,2025,3,3,Bulldogs,45,0,0,0,27,3,3,0,0,36,36,366000.0,27.0,Eels,Bulldogs,8,16,2025-03-23 16:05:00
+596,Joey,Lussick,Parramatta Eels,,2025,3,3,Wests Tigers,80,0,0,0,24,0,0,0,1,8,20,,,Wests Tigers,Eels,30,18,2025-02-21 20:00:00
+596,Joey,Lussick,Parramatta Eels,,2025,2,2,Knights,80,0,1,1,6,0,0,0,0,13,16,,,Knights,Eels,18,44,2025-02-14 18:00:00
+601,Makahesi,Makatoa,Sydney Roosters,,2025,18,18,Tigers,22,0,0,0,17,1,0,0,0,22,20,230000.0,22.0,Roosters,Tigers,28,30,2025-07-06 14:00:00
+601,Makahesi,Makatoa,Sydney Roosters,,2025,15,15,Knights,25,0,0,0,20,1,0,0,0,42,21,230000.0,26.0,Knights,Roosters,8,12,2025-06-14 17:30:00
+601,Makahesi,Makatoa,Sydney Roosters,,2025,12,12,Sharks,19,0,0,0,6,2,0,0,0,59,7,230000.0,18.0,Roosters,Sharks,42,16,2025-05-24 19:35:00
+601,Makahesi,Makatoa,Sydney Roosters,,2025,3,3,Warriors,27,0,0,0,20,0,1,0,0,32,23,244000.0,21.0,Warriors,Roosters,14,6,2025-03-21 18:00:00
+601,Makahesi,Makatoa,Sydney Roosters,,2025,2,2,Panthers,22,0,0,0,13,1,0,0,0,35,14,243000.0,18.0,Panthers,Roosters,32,38,2025-03-14 20:00:00
+601,Makahesi,Makatoa,Sydney Roosters,,2025,2,2,Dragons,80,0,0,0,9,1,1,1,0,50,18,,,Dragons,Roosters,26,8,2025-02-16 19:30:00
+626,Dane,Aukafolau,Newcastle Knights,,2025,2,2,Dolphins,80,0,0,0,18,0,1,1,0,70,42,,,Cowboys,Dolphins,8,50,2025-02-14 20:00:00
+628,Jackson,Hastings,Newcastle Knights,,2025,21,21,Raiders,17,0,0,0,10,0,0,0,0,20,12,596000.0,49.0,Raiders,Knights,44,18,2025-07-27 14:00:00
+628,Jackson,Hastings,Newcastle Knights,,2025,20,20,Warriors,80,0,1,0,24,2,1,0,1,64,43,642000.0,42.0,Knights,Warriors,15,20,2025-07-20 16:05:00
+628,Jackson,Hastings,Newcastle Knights,,2025,19,19,Storm,80,0,0,0,28,1,1,0,0,79,54,648000.0,48.0,Knights,Storm,14,32,2025-07-12 15:00:00
+628,Jackson,Hastings,Newcastle Knights,,2025,17,17,Raiders,80,0,0,0,31,3,3,0,1,87,53,644000.0,49.0,Knights,Raiders,18,22,2025-06-27 20:00:00
+628,Jackson,Hastings,Newcastle Knights,,2025,15,15,Roosters,80,0,0,0,26,1,3,1,1,110,56,639000.0,51.0,Knights,Roosters,8,12,2025-06-14 17:30:00
+628,Jackson,Hastings,Newcastle Knights,,2025,3,3,Roosters,80,0,0,0,6,0,1,0,0,12,13,,,Roosters,Knights,10,48,2025-02-23 15:15:00
+628,Jackson,Hastings,Newcastle Knights,,2025,2,2,Eels,80,0,0,0,14,0,0,0,1,48,16,,,Knights,Eels,18,44,2025-02-14 18:00:00
+651,Fletcher,Baker,Canterbury-Bankstown Bulldogs,,2025,11,11,Dragons,25,0,0,0,19,0,0,0,1,58,21,364000.0,35.0,Broncos,Dragons,26,30,2025-05-18 14:00:00
+651,Fletcher,Baker,Canterbury-Bankstown Bulldogs,,2025,10,10,Rabbitohs,18,0,0,0,11,2,0,2,0,74,20,383000.0,30.0,Rabbitohs,Broncos,22,14,2025-05-09 20:00:00
+652,Eliesa,Katoa,Melbourne Storm,,2025,31,GF,Broncos,80,1,1,1,33,7,7,4,2,172,82,,,Storm,Broncos,22,26,2025-10-05 19:30:00
+652,Eliesa,Katoa,Melbourne Storm,,2025,30,FW3,Sharks,80,0,0,0,36,5,1,2,1,140,44,,,Storm,Sharks,22,14,2025-09-26 19:50:00
+652,Eliesa,Katoa,Melbourne Storm,,2025,28,FW1,Bulldogs,80,1,0,2,25,2,5,1,0,163,69,,,Storm,Bulldogs,26,18,2025-09-12 19:50:00
+652,Eliesa,Katoa,Melbourne Storm,,2025,27,27,Broncos,80,1,1,0,35,1,3,3,1,176,78,722000.0,44.0,Broncos,Storm,30,14,2025-09-04 19:50:00
+652,Eliesa,Katoa,Melbourne Storm,,2025,25,25,Bulldogs,80,1,0,0,34,2,5,0,1,135,58,696000.0,46.0,Storm,Bulldogs,20,14,2025-08-22 20:00:00
+652,Eliesa,Katoa,Melbourne Storm,,2025,24,24,Panthers,82,0,0,0,45,3,0,1,0,125,61,688000.0,57.0,Panthers,Storm,18,22,2025-08-14 19:50:00
+652,Eliesa,Katoa,Melbourne Storm,,2025,23,23,Broncos,80,0,0,0,37,1,4,1,2,139,56,686000.0,58.0,Storm,Broncos,22,2,2025-08-07 19:50:00
+652,Eliesa,Katoa,Melbourne Storm,,2025,22,22,Eels,80,1,0,0,33,1,3,0,1,165,57,694000.0,63.0,Eels,Storm,10,16,2025-07-31 19:50:00
+652,Eliesa,Katoa,Melbourne Storm,,2025,21,21,Roosters,80,0,0,0,32,5,2,1,1,73,38,707000.0,49.0,Roosters,Storm,30,34,2025-07-24 19:50:00
+652,Eliesa,Katoa,Melbourne Storm,,2025,20,20,Sea Eagles,80,0,0,0,38,0,1,0,2,101,45,726000.0,34.0,Storm,Sea Eagles,16,18,2025-07-19 19:35:00
+674,Semi,Valemei,North Queensland Cowboys,,2025,26,26,Broncos,80,2,0,1,4,5,0,1,0,176,43,395000.0,16.0,Cowboys,Broncos,30,38,2025-08-30 19:35:00
+674,Semi,Valemei,North Queensland Cowboys,,2025,25,25,Tigers,80,2,0,2,6,3,6,0,1,161,54,372000.0,35.0,Tigers,Cowboys,28,34,2025-08-24 16:05:00
+674,Semi,Valemei,North Queensland Cowboys,,2025,24,24,Knights,80,0,0,0,6,5,8,0,3,110,19,355000.0,33.0,Cowboys,Knights,38,4,2025-08-17 16:05:00
+674,Semi,Valemei,North Queensland Cowboys,,2025,23,23,Eels,80,0,0,0,1,2,2,0,1,212,24,369000.0,29.0,Eels,Cowboys,19,18,2025-08-10 16:05:00
+715,Adam,Cook,Canberra Raiders,,2025,27,27,Dolphins,80,0,0,0,18,4,0,0,1,10,35,355000.0,27.0,Dolphins,Raiders,62,24,2025-09-07 14:00:00
+715,Adam,Cook,Canberra Raiders,,2025,2,2,Sharks,80,0,0,0,17,3,0,0,2,11,13,,,Raiders,Sharks,10,40,2025-02-13 19:50:00
+715,Adam,Cook,Canberra Raiders,,2025,1,1,Panthers,80,0,1,0,10,1,0,0,1,0,18,,,Panthers,Raiders,16,22,2025-02-08 19:30:00
+716,Charlie,Staines,Wests Tigers,,2025,20,20,Titans,80,0,0,1,4,0,4,1,4,130,30,418000.0,32.0,Tigers,Titans,21,20,2025-07-20 14:00:00
+716,Charlie,Staines,Wests Tigers,,2025,19,19,Warriors,80,0,0,0,1,1,2,0,1,126,16,425000.0,20.0,Warriors,Tigers,34,14,2025-07-13 14:00:00
+716,Charlie,Staines,Wests Tigers,,2025,18,18,Roosters,80,1,0,1,6,1,2,0,0,169,40,431000.0,14.0,Roosters,Tigers,28,30,2025-07-06 14:00:00
+716,Charlie,Staines,Wests Tigers,,2025,13,13,Cowboys,80,1,0,1,6,0,3,3,0,219,58,410000.0,24.0,Cowboys,Tigers,32,28,2025-05-31 17:30:00
+716,Charlie,Staines,Wests Tigers,,2025,11,11,Rabbitohs,80,0,0,0,2,1,2,3,2,191,31,378000.0,21.0,Tigers,Rabbitohs,12,22,2025-05-18 18:15:00
+716,Charlie,Staines,Wests Tigers,,2025,10,10,Storm,80,0,0,0,15,6,2,0,0,131,20,368000.0,9.0,Storm,Tigers,64,0,2025-05-11 14:00:00
+716,Charlie,Staines,Wests Tigers,,2025,9,9,Dragons,80,2,0,1,8,1,1,1,0,163,53,357000.0,25.0,Tigers,Dragons,34,28,2025-05-03 19:45:00
+716,Charlie,Staines,Wests Tigers,,2025,3,3,Eels,80,0,0,0,4,0,4,1,0,97,25,,,Wests Tigers,Eels,30,18,2025-02-21 20:00:00
+717,Jarrett,Subloo,Canberra Raiders,,2025,2,2,Dolphins,80,1,0,1,8,2,3,0,0,11,25,,,Cowboys,Dolphins,8,50,2025-02-14 20:00:00
+718,Tuipulotu,Katoa,Sydney Roosters,,2025,2,2,Warriors,80,0,0,0,0,0,0,0,0,82,8,,,Warriors,Storm,36,10,2025-02-15 13:30:00
+729,Toby,Sexton,Canterbury-Bankstown Bulldogs,,2025,29,FW2,Panthers,80,0,0,0,15,4,0,0,0,12,10,,,Bulldogs,Panthers,26,46,2025-09-21 16:05:00
+729,Toby,Sexton,Canterbury-Bankstown Bulldogs,,2025,28,FW1,Storm,61,1,0,0,22,4,0,0,1,45,29,,,Storm,Bulldogs,26,18,2025-09-12 19:50:00
+729,Toby,Sexton,Canterbury-Bankstown Bulldogs,,2025,19,19,Cowboys,80,0,0,0,20,5,3,0,1,105,28,531000.0,40.0,Cowboys,Bulldogs,8,12,2025-07-12 19:35:00
+729,Toby,Sexton,Canterbury-Bankstown Bulldogs,,2025,18,18,Broncos,80,0,0,0,28,1,1,0,0,94,46,545000.0,42.0,Bulldogs,Broncos,18,22,2025-07-04 20:00:00
+729,Toby,Sexton,Canterbury-Bankstown Bulldogs,,2025,17,17,Panthers,80,0,0,0,29,4,0,0,0,46,33,548000.0,36.0,Panthers,Bulldogs,8,6,2025-06-26 19:50:00
+729,Toby,Sexton,Canterbury-Bankstown Bulldogs,,2025,15,15,Rabbitohs,80,1,0,0,20,2,0,0,0,103,64,550000.0,50.0,Rabbitohs,Bulldogs,18,24,2025-06-15 16:05:00
+729,Toby,Sexton,Canterbury-Bankstown Bulldogs,,2025,14,14,Eels,80,0,0,0,21,3,1,0,0,111,43,539000.0,58.0,Bulldogs,Eels,30,12,2025-06-09 16:00:00
+729,Toby,Sexton,Canterbury-Bankstown Bulldogs,,2025,12,12,Dolphins,80,0,0,0,29,2,0,0,0,11,30,555000.0,47.0,Bulldogs,Dolphins,8,44,2025-05-22 19:50:00
+729,Toby,Sexton,Canterbury-Bankstown Bulldogs,,2025,11,11,Roosters,80,1,0,0,21,1,4,0,0,90,52,580000.0,55.0,Bulldogs,Roosters,24,20,2025-05-16 20:00:00
+729,Toby,Sexton,Canterbury-Bankstown Bulldogs,,2025,10,10,Raiders,80,0,1,0,21,3,1,0,1,67,32,587000.0,46.0,Raiders,Bulldogs,20,32,2025-05-10 15:00:00
+737,Taniela,Otukolo,New Zealand Warriors,,2025,2,2,Wests Tigers,80,0,0,0,15,0,0,0,1,12,14,,,Bulldogs,Wests Tigers,20,14,2025-02-16 17:30:00
+741,Tyson,Smoothy,Brisbane Broncos,,2025,31,GF,Storm,20,0,0,1,18,1,0,0,0,19,21,,,Storm,Broncos,22,26,2025-10-05 19:30:00
+741,Tyson,Smoothy,Brisbane Broncos,,2025,30,FW3,Panthers,39,0,0,0,34,2,0,1,0,46,40,,,Broncos,Panthers,16,14,2025-09-28 16:05:00
+741,Tyson,Smoothy,Brisbane Broncos,,2025,28,FW1,Raiders,37,0,0,0,22,1,3,0,0,37,31,,,Raiders,Broncos,28,29,2025-09-14 16:05:00
+741,Tyson,Smoothy,Brisbane Broncos,,2025,27,27,Storm,30,0,0,0,13,0,0,0,0,10,14,308000.0,29.0,Broncos,Storm,30,14,2025-09-04 19:50:00
+741,Tyson,Smoothy,Brisbane Broncos,,2025,26,26,Cowboys,40,0,0,0,27,2,0,0,0,13,23,327000.0,29.0,Cowboys,Broncos,30,38,2025-08-30 19:35:00
+741,Tyson,Smoothy,Brisbane Broncos,,2025,25,25,Knights,35,0,0,0,18,0,0,0,0,27,27,338000.0,35.0,Knights,Broncos,12,46,2025-08-24 14:00:00
+741,Tyson,Smoothy,Brisbane Broncos,,2025,24,24,Dolphins,29,0,0,1,11,0,0,1,0,10,18,349000.0,34.0,Broncos,Dolphins,38,28,2025-08-16 17:30:00
+741,Tyson,Smoothy,Brisbane Broncos,,2025,19,19,Titans,30,0,0,0,16,0,1,1,0,48,24,368000.0,39.0,Titans,Broncos,14,26,2025-07-13 18:15:00
+741,Tyson,Smoothy,Brisbane Broncos,,2025,18,18,Bulldogs,31,0,0,0,27,0,1,0,1,44,35,386000.0,50.0,Bulldogs,Broncos,18,22,2025-07-04 20:00:00
+741,Tyson,Smoothy,Brisbane Broncos,,2025,8,8,Bulldogs,15,0,0,0,13,0,0,0,0,13,14,410000.0,40.0,Broncos,Bulldogs,42,18,2025-04-24 19:50:00
+746,Shaquai,Mitchell,South Sydney Rabbitohs,,2025,1,1,Maori,31,1,0,1,22,1,3,1,0,72,49,,,Indigenous,Maori,6,10,2025-02-15 20:10:00
+766,Soni,Luke,North Queensland Cowboys,,2025,26,26,Bulldogs,39,0,0,0,29,5,0,0,0,63,25,345000.0,27.0,Bulldogs,Panthers,28,4,2025-08-28 19:50:00
+766,Soni,Luke,North Queensland Cowboys,,2025,3,3,Sea Eagles,80,0,0,0,5,1,0,0,0,0,7,,,Sea Eagles,Panthers,22,38,2025-02-21 18:00:00
+773,Blake,Taaffe,Canterbury-Bankstown Bulldogs,,2025,15,15,Rabbitohs,7,0,0,1,1,0,1,0,0,37,10,230000.0,27.0,Rabbitohs,Bulldogs,18,24,2025-06-15 16:05:00
+773,Blake,Taaffe,Canterbury-Bankstown Bulldogs,,2025,12,12,Dolphins,80,0,0,0,26,5,0,1,1,65,25,233000.0,38.0,Bulldogs,Dolphins,8,44,2025-05-22 19:50:00
+773,Blake,Taaffe,Canterbury-Bankstown Bulldogs,,2025,9,9,Titans,10,0,0,0,4,0,0,0,1,42,6,252000.0,37.0,Titans,Bulldogs,18,38,2025-05-04 13:50:00
+773,Blake,Taaffe,Canterbury-Bankstown Bulldogs,,2025,5,5,Knights,3,0,0,0,0,0,0,0,0,14,1,291000.0,24.0,Bulldogs,Knights,20,0,2025-04-06 18:15:00
+773,Blake,Taaffe,Canterbury-Bankstown Bulldogs,,2025,3,3,Broncos,80,0,1,0,4,1,0,0,0,41,13,,,Broncos,Bulldogs,30,14,2025-02-22 17:30:00
+773,Blake,Taaffe,Canterbury-Bankstown Bulldogs,,2025,2,2,Wests Tigers,80,0,0,0,7,1,3,0,1,128,26,,,Bulldogs,Wests Tigers,20,14,2025-02-16 17:30:00
+775,Jake,Arthur,Manly-Warringah Sea Eagles,,2025,27,27,Eels,80,0,0,0,26,4,0,0,0,49,40,386000.0,43.0,Eels,Knights,66,10,2025-09-07 16:05:00
+775,Jake,Arthur,Manly-Warringah Sea Eagles,,2025,26,26,Sharks,27,0,0,0,7,1,0,0,0,23,8,394000.0,23.0,Sharks,Knights,40,16,2025-08-31 14:00:00
+775,Jake,Arthur,Manly-Warringah Sea Eagles,,2025,25,25,Broncos,80,0,0,0,23,6,0,0,1,54,20,416000.0,4.0,Knights,Broncos,12,46,2025-08-24 14:00:00
+775,Jake,Arthur,Manly-Warringah Sea Eagles,,2025,24,24,Cowboys,80,0,1,0,29,4,0,0,2,69,46,400000.0,-7.0,Cowboys,Knights,38,4,2025-08-17 16:05:00
+775,Jake,Arthur,Manly-Warringah Sea Eagles,,2025,23,23,Panthers,80,0,0,0,33,3,0,1,3,57,54,353000.0,15.0,Knights,Panthers,12,48,2025-08-08 18:00:00
+775,Jake,Arthur,Manly-Warringah Sea Eagles,,2025,12,12,Eels,65,0,0,0,12,2,1,1,1,60,37,312000.0,23.0,Eels,Sea Eagles,30,10,2025-05-23 20:00:00
+775,Jake,Arthur,Manly-Warringah Sea Eagles,,2025,3,3,Panthers,80,0,0,0,11,1,0,0,2,34,20,,,Sea Eagles,Panthers,22,38,2025-02-21 18:00:00
+775,Jake,Arthur,Manly-Warringah Sea Eagles,,2025,2,2,Rabbitohs,80,0,1,0,18,0,2,0,3,69,53,,,Rabbitohs,Sea Eagles,24,34,2025-02-15 15:30:00
+786,Declan,Casey,Wests Tigers,,2025,2,2,Sea Eagles,80,0,0,1,11,2,1,1,1,90,28,,,Rabbitohs,Sea Eagles,24,34,2025-02-15 15:30:00
+799,Chris,Patolo,Canterbury-Bankstown Bulldogs,,2025,3,3,Panthers,80,0,0,0,21,0,1,0,0,50,27,,,Sea Eagles,Panthers,22,38,2025-02-21 18:00:00
+799,Chris,Patolo,Canterbury-Bankstown Bulldogs,,2025,2,2,Rabbitohs,80,0,0,0,12,0,1,0,0,97,23,,,Rabbitohs,Sea Eagles,24,34,2025-02-15 15:30:00
+807,Adrian,Trevilyan,Canberra Raiders,,2025,2,2,Dolphins,80,0,0,0,13,4,0,1,0,22,11,,,Cowboys,Dolphins,8,50,2025-02-14 20:00:00
+812,Samuel,Loizou,Parramatta Eels,,2025,2,2,Knights,80,1,0,1,0,0,2,0,0,45,20,,,Knights,Eels,18,44,2025-02-14 18:00:00
+817,Riley,Price,Penrith Panthers,,2025,26,26,Bulldogs,50,0,0,0,35,2,0,0,0,77,38,249000.0,18.0,Bulldogs,Panthers,28,4,2025-08-28 19:50:00
+832,Michael,Molo,St George-Illawarra Dragons,,2025,22,22,Raiders,80,0,0,0,37,2,0,0,0,93,44,456000.0,41.0,Dragons,Raiders,18,12,2025-08-02 17:30:00
+832,Michael,Molo,St George-Illawarra Dragons,,2025,21,21,Cowboys,35,0,0,0,14,0,0,0,0,71,21,457000.0,28.0,Cowboys,Dragons,38,32,2025-07-25 18:00:00
+832,Michael,Molo,St George-Illawarra Dragons,,2025,20,20,Bulldogs,56,0,0,0,34,1,0,0,0,78,43,469000.0,30.0,Bulldogs,Dragons,20,18,2025-07-19 17:30:00
+832,Michael,Molo,St George-Illawarra Dragons,,2025,19,19,Roosters,28,0,0,0,19,2,0,0,0,98,24,459000.0,17.0,Dragons,Roosters,24,31,2025-07-12 17:30:00
+832,Michael,Molo,St George-Illawarra Dragons,,2025,18,18,Raiders,80,0,0,0,49,0,1,0,0,115,62,450000.0,34.0,Raiders,Dragons,28,24,2025-07-05 17:30:00
+832,Michael,Molo,St George-Illawarra Dragons,,2025,2,2,Roosters,80,0,0,0,12,0,0,0,1,75,17,,,Dragons,Roosters,26,8,2025-02-16 19:30:00
+836,Izaac,Tuâ€™itupou Thompson,South Sydney Rabbitohs,,2025,21,21,Panthers,80,0,0,0,10,0,2,0,1,136,26,,27.0,Panthers,Tigers,36,2,2025-07-26 17:30:00
+836,Izaac,Tuâ€™itupou Thompson,South Sydney Rabbitohs,,2025,1,1,Panthers,80,0,0,0,0,1,1,0,0,62,6,,,Panthers,Raiders,16,22,2025-02-08 19:30:00
+841,Justin,Matamua,Wests Tigers,,2025,2,2,Bulldogs,80,0,0,0,34,0,0,0,1,80,40,,,Bulldogs,Wests Tigers,20,14,2025-02-16 17:30:00
+847,Austin,Dias,Wests Tigers,,2025,26,26,Bulldogs,34,0,0,0,26,3,1,1,1,25,24,252000.0,19.0,Bulldogs,Panthers,28,4,2025-08-28 19:50:00
+847,Austin,Dias,Wests Tigers,,2025,3,3,Sea Eagles,80,0,0,0,3,0,0,0,1,7,1,,,Sea Eagles,Panthers,22,38,2025-02-21 18:00:00
+856,Viliami,Fifita,St George-Illawarra Dragons,,2025,18,18,Raiders,16,0,0,0,11,1,0,0,1,41,11,235000.0,20.0,Raiders,Dragons,28,24,2025-07-05 17:30:00
+856,Viliami,Fifita,St George-Illawarra Dragons,,2025,17,17,Eels,21,0,0,0,15,1,1,0,0,68,19,248000.0,20.0,Dragons,Eels,34,20,2025-06-28 17:30:00
+860,Jordan,Lipp,North Queensland Cowboys,,2025,2,2,Cowboys,80,0,1,1,3,1,2,0,0,95,27,,,Cowboys,Dolphins,8,50,2025-02-14 20:00:00
+862,Mason,Teague,Dolphins,,2025,2,2,Cowboys,80,1,0,0,22,0,0,0,0,94,37,,,Cowboys,Dolphins,8,50,2025-02-14 20:00:00
+865,Tom,Weaver,Gold Coast Titans,,2025,17,17,Cowboys,80,0,0,1,15,5,1,0,1,101,41,396000.0,45.0,Titans,Cowboys,24,30,2025-06-29 16:05:00
+865,Tom,Weaver,Gold Coast Titans,,2025,13,13,Storm,80,0,0,0,28,2,0,0,1,30,34,399000.0,48.0,Titans,Storm,16,28,2025-05-31 15:00:00
+865,Tom,Weaver,Gold Coast Titans,,2025,9,9,Bulldogs,4,0,0,0,5,0,0,0,0,0,7,420000.0,32.0,Titans,Bulldogs,18,38,2025-05-04 13:50:00
+865,Tom,Weaver,Gold Coast Titans,,2025,8,8,Cowboys,80,0,1,0,22,7,0,0,0,51,39,450000.0,36.0,Cowboys,Titans,50,18,2025-04-26 17:30:00
+865,Tom,Weaver,Gold Coast Titans,,2025,7,7,Raiders,80,0,1,0,27,13,1,0,1,35,32,448000.0,34.0,Titans,Raiders,20,30,2025-04-20 14:00:00
+865,Tom,Weaver,Gold Coast Titans,,2025,3,3,Dolphins,80,0,0,0,4,0,0,0,0,6,6,,,Dolphins,Titans,18,26,2025-02-22 19:30:00
+865,Tom,Weaver,Gold Coast Titans,,2025,2,2,Broncos,80,0,0,0,14,4,1,1,2,75,27,,,Broncos,Titans,50,12,2025-02-16 15:30:00
+869,Ethan,Quai-Ward,Canterbury-Bankstown Bulldogs,,2025,3,3,Titans,80,0,0,0,3,0,1,0,0,57,10,,,Dolphins,Titans,18,26,2025-02-22 19:30:00
+869,Ethan,Quai-Ward,Canterbury-Bankstown Bulldogs,,2025,2,2,Cowboys,80,0,0,0,4,1,0,0,0,146,17,,,Cowboys,Dolphins,8,50,2025-02-14 20:00:00
+870,Jacob,Alick-Wiencke,Gold Coast Titans,,2025,24,24,Sharks,34,0,0,0,5,1,1,0,0,17,5,258000.0,14.0,Sharks,Titans,54,22,2025-08-16 15:00:00
+870,Jacob,Alick-Wiencke,Gold Coast Titans,,2025,23,23,Rabbitohs,40,0,0,0,8,0,0,0,0,55,15,270000.0,7.0,Titans,Rabbitohs,18,20,2025-08-10 14:00:00
+870,Jacob,Alick-Wiencke,Gold Coast Titans,,2025,22,22,Panthers,65,0,0,0,27,3,0,0,1,58,24,263000.0,8.0,Titans,Panthers,26,30,2025-08-02 15:00:00
+870,Jacob,Alick-Wiencke,Gold Coast Titans,,2025,21,21,Warriors,80,0,0,0,30,1,0,0,1,100,36,249000.0,26.0,Warriors,Titans,16,24,2025-07-26 15:00:00
+870,Jacob,Alick-Wiencke,Gold Coast Titans,,2025,16,16,Eels,53,0,0,0,19,2,1,2,0,86,31,242000.0,52.0,Eels,Titans,36,20,2025-06-22 18:15:00
+870,Jacob,Alick-Wiencke,Gold Coast Titans,,2025,15,15,Sea Eagles,5,0,0,0,4,1,0,0,0,24,4,267000.0,53.0,Titans,Sea Eagles,28,8,2025-06-13 20:00:00
+870,Jacob,Alick-Wiencke,Gold Coast Titans,,2025,14,14,Broncos,8,0,0,0,3,0,0,0,0,8,3,326000.0,47.0,Broncos,Titans,44,14,2025-06-07 19:35:00
+870,Jacob,Alick-Wiencke,Gold Coast Titans,,2025,13,13,Storm,5,0,0,0,3,0,0,0,0,25,5,376000.0,31.0,Titans,Storm,16,28,2025-05-31 15:00:00
+870,Jacob,Alick-Wiencke,Gold Coast Titans,,2025,1,1,Maori,47,0,0,0,24,0,1,1,0,87,39,,,Indigenous,Maori,6,10,2025-02-15 20:10:00
+875,Joshua,Stuckey,Canterbury-Bankstown Bulldogs,,2025,2,2,Sea Eagles,80,0,0,0,7,0,0,0,0,24,9,,,Rabbitohs,Sea Eagles,24,34,2025-02-15 15:30:00
+878,Raymond,Tuaimalo Vaega,Manly-Warringah Sea Eagles,,2025,3,3,Panthers,80,2,0,1,0,0,6,0,1,101,41,,,Sea Eagles,Panthers,22,38,2025-02-21 18:00:00
+878,Raymond,Tuaimalo Vaega,Manly-Warringah Sea Eagles,,2025,2,2,Rabbitohs,80,2,0,2,4,1,6,0,3,104,42,,,Rabbitohs,Sea Eagles,24,34,2025-02-15 15:30:00
+884,Siteni,Taukamo,Cronulla-Sutherland Sharks,,2025,3,3,Roosters,80,0,0,0,1,0,0,0,0,0,2,,,Roosters,Knights,10,48,2025-02-23 15:15:00
+884,Siteni,Taukamo,Cronulla-Sutherland Sharks,,2025,2,2,Eels,80,0,0,0,2,1,0,0,3,64,1,,,Knights,Eels,18,44,2025-02-14 18:00:00
+896,Gordon,Chan Kum Tong,Manly-Warringah Sea Eagles,,2025,21,21,Bulldogs,35,0,0,0,24,0,4,1,0,43,40,266000.0,20.0,Bulldogs,Sea Eagles,42,4,2025-07-27 16:05:00
+896,Gordon,Chan Kum Tong,Manly-Warringah Sea Eagles,,2025,8,8,Panthers,22,0,0,0,17,1,1,0,0,11,18,248000.0,19.0,Panthers,Sea Eagles,10,26,2025-04-26 19:35:00
+896,Gordon,Chan Kum Tong,Manly-Warringah Sea Eagles,,2025,3,3,Panthers,80,0,0,0,28,0,1,0,0,39,31,,,Sea Eagles,Panthers,22,38,2025-02-21 18:00:00
+896,Gordon,Chan Kum Tong,Manly-Warringah Sea Eagles,,2025,2,2,Rabbitohs,80,0,0,1,20,3,3,0,0,82,30,,,Rabbitohs,Sea Eagles,24,34,2025-02-15 15:30:00
+901,Ryan,Rivett,Newcastle Knights,,2025,2,2,Dolphins,80,0,1,0,5,0,0,0,0,12,19,,,Cowboys,Dolphins,8,50,2025-02-14 20:00:00
+907,Iszac,Fa'asuamaleaui,Gold Coast Titans,,2025,27,27,Tigers,22,0,0,0,16,1,0,1,0,34,19,230000.0,21.0,Titans,Tigers,36,28,2025-09-06 17:30:00
+907,Iszac,Fa'asuamaleaui,Gold Coast Titans,,2025,26,26,Dolphins,16,0,0,0,11,1,0,0,0,25,11,230000.0,13.0,Dolphins,Titans,36,30,2025-08-31 16:05:00
+907,Iszac,Fa'asuamaleaui,Gold Coast Titans,,2025,25,25,Warriors,19,0,0,0,12,1,0,0,0,54,14,230000.0,7.0,Titans,Warriors,18,32,2025-08-23 17:30:00
+907,Iszac,Fa'asuamaleaui,Gold Coast Titans,,2025,24,24,Sharks,23,0,0,0,20,0,0,0,0,13,21,230000.0,8.0,Sharks,Titans,54,22,2025-08-16 15:00:00
+907,Iszac,Fa'asuamaleaui,Gold Coast Titans,,2025,23,23,Rabbitohs,38,0,0,0,28,1,0,0,0,62,30,230000.0,19.0,Titans,Rabbitohs,18,20,2025-08-10 14:00:00
+907,Iszac,Fa'asuamaleaui,Gold Coast Titans,,2025,22,22,Panthers,24,0,0,0,13,0,0,1,0,61,21,230000.0,24.0,Titans,Panthers,26,30,2025-08-02 15:00:00
+907,Iszac,Fa'asuamaleaui,Gold Coast Titans,,2025,21,21,Warriors,13,0,0,0,11,0,0,1,0,39,16,230000.0,27.0,Warriors,Titans,16,24,2025-07-26 15:00:00
+907,Iszac,Fa'asuamaleaui,Gold Coast Titans,,2025,17,17,Cowboys,13,0,0,0,12,1,0,0,0,12,11,230000.0,33.0,Titans,Cowboys,24,30,2025-06-29 16:05:00
+907,Iszac,Fa'asuamaleaui,Gold Coast Titans,,2025,16,16,Eels,19,0,0,0,12,0,0,0,0,31,15,230000.0,36.0,Eels,Titans,36,20,2025-06-22 18:15:00
+907,Iszac,Fa'asuamaleaui,Gold Coast Titans,,2025,15,15,Sea Eagles,26,0,0,0,17,1,0,0,0,62,19,230000.0,44.0,Titans,Sea Eagles,28,8,2025-06-13 20:00:00
+914,Brendan,Hands,Parramatta Eels,,2025,2,2,Tigers,25,0,0,0,15,0,0,0,1,4,18,337000.0,34.0,Eels,Tigers,6,32,2025-03-16 16:05:00
+914,Brendan,Hands,Parramatta Eels,,2025,1,1,Storm,27,0,0,0,15,3,0,0,0,0,9,365000.0,29.0,Storm,Eels,56,18,2025-03-09 16:05:00
+914,Brendan,Hands,Parramatta Eels,,2025,3,3,Wests Tigers,80,0,0,0,13,0,0,0,0,28,15,,,Wests Tigers,Eels,30,18,2025-02-21 20:00:00
+914,Brendan,Hands,Parramatta Eels,,2025,2,2,Knights,80,0,0,0,17,0,0,0,1,0,17,,,Knights,Eels,18,44,2025-02-14 18:00:00
+927,Arthur,Miller-Stephen,Parramatta Eels,,2025,3,3,Wests Tigers,80,0,0,0,2,0,0,0,0,18,3,,,Wests Tigers,Eels,30,18,2025-02-21 20:00:00
+927,Arthur,Miller-Stephen,Parramatta Eels,,2025,2,2,Knights,80,2,0,1,8,0,2,0,2,134,40,,,Knights,Eels,18,44,2025-02-14 18:00:00
+929,Aitasi,James,Manly-Warringah Sea Eagles,,2025,3,3,Panthers,80,0,0,0,9,0,1,0,0,26,13,,,Sea Eagles,Panthers,22,38,2025-02-21 18:00:00
+929,Aitasi,James,Manly-Warringah Sea Eagles,,2025,2,2,Rabbitohs,80,0,0,0,13,2,1,0,0,47,15,,,Rabbitohs,Sea Eagles,24,34,2025-02-15 15:30:00
+931,Dean,Matterson,Manly-Warringah Sea Eagles,,2025,3,3,Panthers,80,0,0,0,25,2,3,0,0,35,30,,,Sea Eagles,Panthers,22,38,2025-02-21 18:00:00
+931,Dean,Matterson,Manly-Warringah Sea Eagles,,2025,2,2,Rabbitohs,80,0,1,0,14,1,0,0,0,52,21,,,Rabbitohs,Sea Eagles,24,34,2025-02-15 15:30:00
+934,Connor,Muhleisen,St George-Illawarra Dragons,,2025,3,3,Rabbitohs,80,0,0,0,7,0,0,0,0,0,7,,,Dragons,Rabbitohs,46,26,2025-02-22 15:00:00
+934,Connor,Muhleisen,St George-Illawarra Dragons,,2025,2,2,Roosters,80,0,0,0,27,0,1,0,0,38,32,,,Dragons,Roosters,26,8,2025-02-16 19:30:00
+935,Josh,Feledy,Manly-Warringah Sea Eagles,,2025,2,2,Bulldogs,80,0,0,0,9,1,2,0,1,68,15,,,Bulldogs,Wests Tigers,20,14,2025-02-16 17:30:00
+937,Lewis,Dodd,South Sydney Rabbitohs,,2025,22,22,Broncos,80,0,1,0,16,3,0,1,2,58,34,345000.0,24.0,Broncos,Rabbitohs,60,14,2025-08-01 20:00:00
+937,Lewis,Dodd,South Sydney Rabbitohs,,2025,21,21,Sharks,68,0,0,0,25,1,0,0,0,14,43,339000.0,50.0,Rabbitohs,Sharks,12,14,2025-07-26 19:35:00
+937,Lewis,Dodd,South Sydney Rabbitohs,,2025,20,20,Panthers,26,0,0,0,11,2,0,0,0,12,10,351000.0,53.0,Panthers,Rabbitohs,30,10,2025-07-18 20:00:00
+937,Lewis,Dodd,South Sydney Rabbitohs,,2025,9,9,Knights,80,0,0,0,23,4,1,0,0,79,32,402000.0,69.0,Rabbitohs,Knights,4,30,2025-05-03 15:00:00
+937,Lewis,Dodd,South Sydney Rabbitohs,,2025,8,8,Storm,16,0,0,0,4,1,1,0,1,11,3,451000.0,59.0,Storm,Rabbitohs,24,16,2025-04-25 20:10:00
+937,Lewis,Dodd,South Sydney Rabbitohs,,2025,7,7,Bulldogs,23,0,0,0,5,0,0,0,0,21,11,517000.0,42.0,Bulldogs,Rabbitohs,32,0,2025-04-18 16:05:00
+937,Lewis,Dodd,South Sydney Rabbitohs,,2025,3,3,Dragons,70,0,0,0,11,1,0,0,0,2,8,,,Dragons,Rabbitohs,46,26,2025-02-22 15:00:00
+937,Lewis,Dodd,South Sydney Rabbitohs,,2025,2,2,Sea Eagles,80,0,0,0,20,0,1,0,0,31,41,,,Rabbitohs,Sea Eagles,24,34,2025-02-15 15:30:00
+940,Tristan,Powell,Melbourne Storm,,2025,2,2,Titans,80,0,0,0,29,1,0,1,0,101,37,,,Broncos,Titans,50,12,2025-02-16 15:30:00
+946,D'Jazirhae,Pua'Avase,North Queensland Cowboys,,2025,2,2,Rabbitohs,80,0,0,0,12,0,0,0,0,10,13,,,Rabbitohs,Sea Eagles,24,34,2025-02-15 15:30:00
+947,Ryan,Foran,Gold Coast Titans,,2025,2,2,Broncos,80,0,0,1,10,1,1,0,0,45,18,,,Broncos,Titans,50,12,2025-02-16 15:30:00
+951,Toby,Rodwell,Sydney Roosters,,2025,2,2,Dragons,80,0,0,0,12,1,0,0,0,48,27,,,Dragons,Roosters,26,8,2025-02-16 19:30:00
+953,Blake,Hosking,Cronulla-Sutherland Sharks,,2025,1,1,Warriors,80,0,0,0,8,0,0,1,0,66,16,,,Sharks,Warriors,12,12,2025-02-07 19:30:00
+956,Solomona,Faataape,Wests Tigers,,2025,4,4,Warriors,80,1,0,0,9,1,1,0,1,70,24,293000.0,20.0,Tigers,Warriors,24,26,2025-03-30 18:15:00
+956,Solomona,Faataape,Wests Tigers,,2025,1,1,Knights,80,0,0,0,17,4,1,0,0,58,25,290000.0,21.0,Tigers,Knights,8,10,2025-03-07 18:00:00
+956,Solomona,Faataape,Wests Tigers,,2025,3,3,Eels,80,1,0,0,2,1,2,0,2,45,12,,,Wests Tigers,Eels,30,18,2025-02-21 20:00:00
+956,Solomona,Faataape,Wests Tigers,,2025,2,2,Bulldogs,80,2,0,3,13,3,4,2,0,108,67,,,Bulldogs,Wests Tigers,20,14,2025-02-16 17:30:00
+961,Bayleigh,Bentley-Hape,South Sydney Rabbitohs,,2025,24,24,Eels,20,0,0,0,8,2,0,0,0,26,6,245000.0,8.0,Rabbitohs,Eels,20,16,2025-08-16 19:35:00
+961,Bayleigh,Bentley-Hape,South Sydney Rabbitohs,,2025,23,23,Titans,80,1,0,1,6,4,3,1,3,116,31,251000.0,16.0,Titans,Rabbitohs,18,20,2025-08-10 14:00:00
+961,Bayleigh,Bentley-Hape,South Sydney Rabbitohs,,2025,22,22,Broncos,80,1,0,0,5,4,1,0,1,122,22,238000.0,15.0,Broncos,Rabbitohs,60,14,2025-08-01 20:00:00
+961,Bayleigh,Bentley-Hape,South Sydney Rabbitohs,,2025,13,13,Warriors,49,0,0,1,1,0,1,0,1,105,17,233000.0,13.0,Rabbitohs,Warriors,30,36,2025-06-01 14:00:00
+961,Bayleigh,Bentley-Hape,South Sydney Rabbitohs,,2025,11,11,Tigers,80,0,0,0,1,0,0,0,1,135,13,233000.0,7.0,Tigers,Rabbitohs,12,22,2025-05-18 18:15:00
+961,Bayleigh,Bentley-Hape,South Sydney Rabbitohs,,2025,10,10,Broncos,80,0,0,0,4,0,3,1,0,138,28,230000.0,16.0,Rabbitohs,Broncos,22,14,2025-05-09 20:00:00
+961,Bayleigh,Bentley-Hape,South Sydney Rabbitohs,,2025,9,9,Knights,80,0,0,0,5,1,5,1,2,174,30,230000.0,29.0,Rabbitohs,Knights,4,30,2025-05-03 15:00:00
+961,Bayleigh,Bentley-Hape,South Sydney Rabbitohs,,2025,8,8,Storm,64,1,0,0,4,2,0,0,3,37,4,230000.0,19.0,Storm,Rabbitohs,24,16,2025-04-25 20:10:00
+961,Bayleigh,Bentley-Hape,South Sydney Rabbitohs,,2025,2,2,Dragons,80,0,0,0,6,1,0,0,1,93,16,230000.0,17.0,Dragons,Rabbitohs,24,25,2025-03-15 15:00:00
+961,Bayleigh,Bentley-Hape,South Sydney Rabbitohs,,2025,3,3,Dragons,80,0,0,0,8,0,1,0,0,11,12,,,Dragons,Rabbitohs,46,26,2025-02-22 15:00:00
+962,Keagan,Russell-Smith,Melbourne Storm,,2025,3,3,Cowboys,80,1,0,1,11,0,1,0,0,26,26,,,Storm,Cowboys,24,36,2025-02-23 17:15:00
+962,Keagan,Russell-Smith,Melbourne Storm,,2025,2,2,Warriors,80,0,1,0,23,6,0,0,1,23,23,,,Warriors,Storm,36,10,2025-02-15 13:30:00
+966,Harrison,Hassett,Penrith Panthers,,2025,12,12,Knights,31,1,0,1,26,2,3,0,0,45,42,254000.0,18.0,Panthers,Knights,6,25,2025-05-24 17:30:00
+966,Harrison,Hassett,Penrith Panthers,,2025,3,3,Sea Eagles,80,1,0,0,29,1,1,0,0,65,51,,,Sea Eagles,Panthers,22,38,2025-02-21 18:00:00
+971,Israel,Leota,Brisbane Broncos,,2025,2,2,Titans,80,0,0,0,1,0,1,0,1,36,5,,,Broncos,Titans,50,12,2025-02-16 15:30:00
+973,Alex,Lobb,Wests Tigers,,2025,2,2,Bulldogs,80,0,1,2,6,1,4,0,1,151,44,,,Bulldogs,Wests Tigers,20,14,2025-02-16 17:30:00
+993,Paul,Bryan,Manly-Warringah Sea Eagles,,2025,12,12,Panthers,19,0,0,0,23,0,1,0,0,27,27,238000.0,18.0,Panthers,Knights,6,25,2025-05-24 17:30:00
+994,Jordan,Martin,Canberra Raiders,,2025,2,2,Sharks,80,0,0,0,21,0,0,0,0,49,21,,,Raiders,Sharks,10,40,2025-02-13 19:50:00
+994,Jordan,Martin,Canberra Raiders,,2025,1,1,Panthers,80,0,0,0,30,0,1,0,1,47,40,,,Panthers,Raiders,16,22,2025-02-08 19:30:00
+1003,Reuben,Porter,Wests Tigers,,2025,1,1,Indigenous,27,0,0,0,15,1,0,1,0,42,21,,,Indigenous,Maori,6,10,2025-02-15 20:10:00
+1007,Coby,Williamson,Melbourne Storm,,2025,3,3,Cowboys,80,0,0,0,1,3,1,0,0,13,-2,,,Storm,Cowboys,24,36,2025-02-23 17:15:00
+1007,Coby,Williamson,Melbourne Storm,,2025,2,2,Warriors,80,0,0,0,6,0,2,1,1,120,27,,,Warriors,Storm,36,10,2025-02-15 13:30:00
+1014,Jamal,Shibasaki,North Queensland Cowboys,,2025,22,22,Sharks,13,0,0,0,6,1,1,0,0,55,11,240000.0,19.0,Sharks,Cowboys,32,12,2025-08-03 16:05:00
+1015,Preston,Riki,Penrith Panthers,,2025,26,26,Bulldogs,17,0,0,0,10,1,1,0,0,36,13,237000.0,19.0,Bulldogs,Panthers,28,4,2025-08-28 19:50:00
+1015,Preston,Riki,Penrith Panthers,,2025,12,12,Knights,16,0,0,0,13,0,0,0,0,54,18,246000.0,19.0,Panthers,Knights,6,25,2025-05-24 17:30:00
+1015,Preston,Riki,Penrith Panthers,,2025,3,3,Sea Eagles,80,1,0,1,30,3,4,0,1,103,52,,,Sea Eagles,Panthers,22,38,2025-02-21 18:00:00
+1015,Preston,Riki,Penrith Panthers,,2025,1,1,Raiders,80,0,0,0,23,0,0,0,1,100,28,,,Panthers,Raiders,16,22,2025-02-08 19:30:00
+1017,Jack,Underhill,Canterbury-Bankstown Bulldogs,,2025,2,2,Wests Tigers,80,0,0,0,21,1,0,1,1,68,27,,,Bulldogs,Wests Tigers,20,14,2025-02-16 17:30:00
+1026,Eli,Clark,Canterbury-Bankstown Bulldogs,,2025,2,2,Raiders,80,0,0,0,1,0,0,0,0,48,5,,,Raiders,Sharks,10,40,2025-02-13 19:50:00
+1026,Eli,Clark,Canterbury-Bankstown Bulldogs,,2025,1,1,Warriors,80,0,0,0,5,0,0,0,0,25,7,,,Sharks,Warriors,12,12,2025-02-07 19:30:00
+1030,Ethan,King,North Queensland Cowboys,,2025,21,21,Storm,80,0,0,0,14,5,6,0,0,82,28,265000.0,7.0,Roosters,Storm,30,34,2025-07-24 19:50:00
+1030,Ethan,King,North Queensland Cowboys,,2025,18,18,Tigers,80,0,1,0,15,0,3,0,0,78,35,244000.0,18.0,Roosters,Tigers,28,30,2025-07-06 14:00:00
+1030,Ethan,King,North Queensland Cowboys,,2025,3,3,Knights,80,0,0,0,0,0,0,0,1,65,4,,,Roosters,Knights,10,48,2025-02-23 15:15:00
+1030,Ethan,King,North Queensland Cowboys,,2025,2,2,Dragons,80,0,0,0,3,1,1,0,0,111,15,,,Dragons,Roosters,26,8,2025-02-16 19:30:00
+1035,Fletcher,Myers,South Sydney Rabbitohs,,2025,10,10,Broncos,80,0,1,1,7,1,2,0,1,84,25,293000.0,35.0,Rabbitohs,Broncos,22,14,2025-05-09 20:00:00
+1035,Fletcher,Myers,South Sydney Rabbitohs,,2025,9,9,Knights,22,0,0,1,0,0,2,0,1,80,14,309000.0,33.0,Rabbitohs,Knights,4,30,2025-05-03 15:00:00
+1035,Fletcher,Myers,South Sydney Rabbitohs,,2025,2,2,Dragons,80,0,0,0,5,1,2,0,1,83,14,335000.0,23.0,Dragons,Rabbitohs,24,25,2025-03-15 15:00:00
+1035,Fletcher,Myers,South Sydney Rabbitohs,,2025,3,3,Dragons,80,0,0,1,4,3,1,0,3,117,8,,,Dragons,Rabbitohs,46,26,2025-02-22 15:00:00
+1035,Fletcher,Myers,South Sydney Rabbitohs,,2025,2,2,Sea Eagles,80,0,0,1,3,0,1,0,0,77,16,,,Rabbitohs,Sea Eagles,24,34,2025-02-15 15:30:00
+1046,Tim,Johannssen,Wests Tigers,,2025,2,2,Bulldogs,80,0,0,0,23,0,1,2,0,152,47,,,Bulldogs,Wests Tigers,20,14,2025-02-16 17:30:00
+1047,Va'a,Semu,Brisbane Broncos,,2025,2,2,Titans,80,0,0,0,0,0,0,0,0,21,2,,,Broncos,Titans,50,12,2025-02-16 15:30:00
+1048,Dan,Keir,Parramatta Eels,,2025,4,4,Sea Eagles,33,0,0,0,28,1,1,0,0,38,35,266000.0,19.0,Sea Eagles,Eels,26,12,2025-03-30 16:05:00
+1048,Dan,Keir,Parramatta Eels,,2025,3,3,Wests Tigers,80,0,0,0,11,1,1,0,1,28,7,,,Wests Tigers,Eels,30,18,2025-02-21 20:00:00
+1051,Michael,Waqa,Dolphins,,2025,2,2,Cowboys,80,1,0,1,11,0,2,0,0,48,31,,,Cowboys,Dolphins,8,50,2025-02-14 20:00:00
+1052,Chris,Vea'ila,Cronulla-Sutherland Sharks,,2025,21,21,Rabbitohs,80,0,0,0,20,2,0,0,0,58,21,271000.0,4.0,Rabbitohs,Sharks,12,14,2025-07-26 19:35:00
+1052,Chris,Vea'ila,Cronulla-Sutherland Sharks,,2025,20,20,Roosters,80,1,0,1,15,2,5,0,0,97,42,253000.0,18.0,Sharks,Roosters,31,18,2025-07-18 18:00:00
+1052,Chris,Vea'ila,Cronulla-Sutherland Sharks,,2025,2,2,Raiders,80,1,0,2,10,0,0,0,1,83,31,,,Raiders,Sharks,10,40,2025-02-13 19:50:00
+1052,Chris,Vea'ila,Cronulla-Sutherland Sharks,,2025,1,1,Warriors,80,0,0,0,11,1,0,0,4,37,4,,,Sharks,Warriors,12,12,2025-02-07 19:30:00
+1058,Marly,Bitungane,North Queensland Cowboys,,2025,23,23,Eels,16,0,0,0,13,1,0,0,0,13,12,230000.0,17.0,Eels,Cowboys,19,18,2025-08-10 16:05:00
+1058,Marly,Bitungane,North Queensland Cowboys,,2025,22,22,Sharks,21,0,0,0,12,0,1,0,0,43,18,230000.0,18.0,Sharks,Cowboys,32,12,2025-08-03 16:05:00
+1058,Marly,Bitungane,North Queensland Cowboys,,2025,2,2,Dolphins,80,0,0,0,33,3,0,0,0,51,40,,,Cowboys,Dolphins,8,50,2025-02-14 20:00:00
+1060,Carter,Gordon,Gold Coast Titans,,2025,27,27,Tigers,80,0,0,0,14,6,0,0,4,74,1,320000.0,27.0,Titans,Tigers,36,28,2025-09-06 17:30:00
+1062,Ethan,Roberts,Sydney Roosters,,2025,3,3,Knights,80,0,0,0,1,0,0,0,0,8,3,,,Roosters,Knights,10,48,2025-02-23 15:15:00
+1062,Ethan,Roberts,Sydney Roosters,,2025,1,1,Maori,13,0,0,0,9,0,0,0,0,17,10,,,Indigenous,Maori,6,10,2025-02-15 20:10:00
+1064,Hugo,Savala,Sydney Roosters,,2025,28,FW1,Sharks,80,0,0,0,30,1,0,0,0,25,40,,,Sharks,Roosters,20,10,2025-09-13 19:50:00
+1064,Hugo,Savala,Sydney Roosters,,2025,27,27,Rabbitohs,80,0,0,2,18,3,4,0,1,114,42,601000.0,35.0,Roosters,Rabbitohs,36,6,2025-09-05 20:00:00
+1064,Hugo,Savala,Sydney Roosters,,2025,26,26,Storm,80,0,1,2,23,3,1,0,1,128,60,601000.0,44.0,Storm,Roosters,10,40,2025-08-29 20:00:00
+1064,Hugo,Savala,Sydney Roosters,,2025,25,25,Eels,80,0,0,0,33,2,2,0,2,52,50,592000.0,49.0,Eels,Roosters,30,10,2025-08-23 19:35:00
+1064,Hugo,Savala,Sydney Roosters,,2025,24,24,Bulldogs,80,0,0,0,23,1,2,0,1,49,36,595000.0,41.0,Roosters,Bulldogs,32,12,2025-08-15 20:00:00
+1064,Hugo,Savala,Sydney Roosters,,2025,23,23,Dolphins,80,1,2,1,21,5,3,1,0,51,58,605000.0,47.0,Dolphins,Roosters,12,64,2025-08-09 17:30:00
+1064,Hugo,Savala,Sydney Roosters,,2025,22,22,Sea Eagles,80,0,0,0,27,2,0,0,1,20,41,598000.0,36.0,Sea Eagles,Roosters,4,20,2025-08-02 19:35:00
+1064,Hugo,Savala,Sydney Roosters,,2025,19,19,Dragons,80,0,1,0,20,0,1,0,1,47,41,599000.0,26.0,Dragons,Roosters,24,31,2025-07-12 17:30:00
+1064,Hugo,Savala,Sydney Roosters,,2025,18,18,Tigers,80,1,1,0,18,1,0,0,1,57,50,585000.0,11.0,Roosters,Tigers,28,30,2025-07-06 14:00:00
+1064,Hugo,Savala,Sydney Roosters,,2025,16,16,Cowboys,80,0,1,1,31,1,3,1,2,95,66,552000.0,19.0,Roosters,Cowboys,42,8,2025-06-22 16:05:00
+1065,Luke,Smith,Canterbury-Bankstown Bulldogs,,2025,12,12,Dolphins,40,0,0,0,22,0,0,0,0,26,24,230000.0,24.0,Bulldogs,Dolphins,8,44,2025-05-22 19:50:00
+1065,Luke,Smith,Canterbury-Bankstown Bulldogs,,2025,11,11,Roosters,27,0,0,0,12,2,0,0,0,15,9,230000.0,18.0,Bulldogs,Roosters,24,20,2025-05-16 20:00:00
+1065,Luke,Smith,Canterbury-Bankstown Bulldogs,,2025,3,3,Broncos,80,0,0,0,11,1,0,0,0,32,12,,,Broncos,Bulldogs,30,14,2025-02-22 17:30:00
+1065,Luke,Smith,Canterbury-Bankstown Bulldogs,,2025,2,2,Wests Tigers,80,0,0,0,14,3,0,0,0,94,17,,,Bulldogs,Wests Tigers,20,14,2025-02-16 17:30:00
+1066,Jethro,Rinakama,Canterbury-Bankstown Bulldogs,,2025,29,FW2,Panthers,80,0,0,0,6,1,1,0,1,87,13,,,Bulldogs,Panthers,26,46,2025-09-21 16:05:00
+1066,Jethro,Rinakama,Canterbury-Bankstown Bulldogs,,2025,28,FW1,Storm,80,0,0,0,7,1,1,1,1,151,32,,,Storm,Bulldogs,26,18,2025-09-12 19:50:00
+1066,Jethro,Rinakama,Canterbury-Bankstown Bulldogs,,2025,23,23,Warriors,80,1,0,1,3,0,1,0,0,73,25,284000.0,17.0,Bulldogs,Warriors,32,14,2025-08-09 19:35:00
+1066,Jethro,Rinakama,Canterbury-Bankstown Bulldogs,,2025,22,22,Tigers,80,0,0,1,4,3,0,0,0,87,10,277000.0,3.0,Tigers,Bulldogs,28,14,2025-08-03 14:00:00
+1066,Jethro,Rinakama,Canterbury-Bankstown Bulldogs,,2025,20,20,Dragons,80,1,0,1,9,2,1,1,2,199,38,270000.0,10.0,Bulldogs,Dragons,20,18,2025-07-19 17:30:00
+1066,Jethro,Rinakama,Canterbury-Bankstown Bulldogs,,2025,19,19,Cowboys,71,1,0,0,5,0,3,1,5,178,31,242000.0,18.0,Cowboys,Bulldogs,8,12,2025-07-12 19:35:00
+1066,Jethro,Rinakama,Canterbury-Bankstown Bulldogs,,2025,3,3,Broncos,80,1,0,1,1,0,0,0,0,50,16,,,Broncos,Bulldogs,30,14,2025-02-22 17:30:00
+1066,Jethro,Rinakama,Canterbury-Bankstown Bulldogs,,2025,2,2,Wests Tigers,80,2,0,3,4,3,5,0,2,167,53,,,Bulldogs,Wests Tigers,20,14,2025-02-16 17:30:00
+1069,Sean,Mullany,Gold Coast Titans,,2025,21,21,Warriors,62,0,0,0,38,0,0,0,1,6,29,238000.0,14.0,Warriors,Titans,16,24,2025-07-26 15:00:00
+1069,Sean,Mullany,Gold Coast Titans,,2025,14,14,Broncos,62,0,0,0,35,4,0,0,0,6,30,230000.0,27.0,Broncos,Titans,44,14,2025-06-07 19:35:00
+1069,Sean,Mullany,Gold Coast Titans,,2025,5,5,Dolphins,15,0,0,0,8,0,0,0,0,6,8,230000.0,0.0,Titans,Dolphins,10,36,2025-04-05 17:30:00
