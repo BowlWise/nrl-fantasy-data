@@ -1,78 +1,126 @@
 import requests
 import pandas as pd
+import string
 import time
-import random
+import os
 
-BASE_URL = "https://footystatistics.com/api/player-stats?player_id={}"
+BASE_URL = "https://footystatistics.com/api/player-search?search="
+PLAYER_STATS_URL = "https://footystatistics.com/api/player-stats?player_id={}"
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-    "Accept": "application/json"
+    "User-Agent": "Mozilla/5.0"
 }
 
+OUTPUT_PATH = "data/footystats/games.csv"
 
-def fetch_player(player_id):
+
+def get_players():
+    players = {}
+    
+    for letter in string.ascii_lowercase:
+        print(f"🔍 Searching: {letter}")
+        try:
+            res = requests.get(BASE_URL + letter, headers=HEADERS, timeout=10)
+            data = res.json()
+
+            for p in data:
+                players[p["player_id"]] = p
+
+            time.sleep(0.5)  # polite rate limiting
+
+        except Exception as e:
+            print(f"❌ Error searching {letter}: {e}")
+
+    print(f"✅ Found {len(players)} unique players")
+    return players
+
+
+def get_player_stats(player_id):
     try:
-        url = BASE_URL.format(player_id)
-        response = requests.get(url, headers=HEADERS, timeout=10)
-
-        if response.status_code != 200:
-            return None
-
-        data = response.json()
-
-        if not data or len(data) == 0:
-            return None
-
-        return data
-
+        url = PLAYER_STATS_URL.format(player_id)
+        res = requests.get(url, headers=HEADERS, timeout=10)
+        return res.json()
     except Exception as e:
-        print(f"❌ Error for {player_id}: {e}")
+        print(f"❌ Failed player {player_id}: {e}")
         return None
 
 
 def run_scraper():
-    all_data = []
-    empty_streak = 0
+    players = get_players()
+    all_rows = []
 
-    START_ID = 1000
-    MAX_ID = 2000000
-    EMPTY_LIMIT = 300  # stop after this many misses in a row
+    for player_id, player_meta in players.items():
+        print(f"📊 Fetching stats for {player_id}")
 
-    for player_id in range(START_ID, MAX_ID):
-        print(f"🔍 Player ID: {player_id}")
+        data = get_player_stats(player_id)
+        if not data:
+            continue
 
-        data = fetch_player(player_id)
+        player_info = data.get("player", {})
+        stats = data.get("stats", [])
 
-        if data:
-            empty_streak = 0
+        if not stats:
+            continue
 
-            for game in data:
-                all_data.append(game)
+        for game in stats:
+            try:
+                row = {
+                    "player_id": player_id,
+                    "first_name": player_info.get("first_name"),
+                    "last_name": player_info.get("last_name"),
+                    "team": player_info.get("team_name"),
+                    "position": player_info.get("positions_label"),
 
-        else:
-            empty_streak += 1
+                    "year": game.get("year"),
+                    "round": game.get("round_id"),
+                    "round_display": game.get("round_display"),
+                    "opponent": game.get("opponent"),
 
-        # 🧠 Stop if we hit a long run of empty IDs
-        if empty_streak >= EMPTY_LIMIT:
-            print(f"🛑 Stopping early at ID {player_id} (no more players likely)")
-            break
+                    "minutes": game.get("time_on_ground"),
+                    "tries": game.get("tries"),
+                    "try_assists": game.get("try_assists"),
+                    "line_breaks": game.get("line_breaks"),
+                    "tackles": game.get("tackles"),
+                    "missed_tackles": game.get("missed_tackles"),
+                    "tackle_breaks": game.get("tackle_breaks"),
+                    "offloads": game.get("offloads"),
+                    "errors": game.get("errors"),
 
-        # ⏱️ Rate limiting (important)
-        time.sleep(random.uniform(0.2, 0.5))
+                    "metres": game.get("metres_gained"),
 
-    print(f"✅ Total records collected: {len(all_data)}")
+                    "fantasy_points": game.get("fantasy_points"),
+                    "price": game.get("price"),
+                    "be": game.get("be"),
 
-    if len(all_data) == 0:
-        print("⚠️ No data found — exiting")
+                    "home_team": game.get("home_squad_name"),
+                    "away_team": game.get("away_squad_name"),
+                    "home_score": game.get("home_score"),
+                    "away_score": game.get("away_score"),
+
+                    "match_date": game.get("match_date")
+                }
+
+                all_rows.append(row)
+
+            except Exception as e:
+                print(f"⚠️ Skipping bad row for player {player_id}: {e}")
+
+        time.sleep(0.2)
+
+    # Create DataFrame
+    df = pd.DataFrame(all_rows)
+
+    if df.empty:
+        print("⚠️ No valid game data found — exiting")
         return
 
-    df = pd.DataFrame(all_data)
+    # Ensure output folder exists
+    os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
 
-    output_path = "data/footystats/games.csv"
-    df.to_csv(output_path, index=False)
+    # Save CSV
+    df.to_csv(OUTPUT_PATH, index=False)
 
-    print(f"💾 Saved to {output_path}")
+    print(f"✅ Saved {len(df)} rows to {OUTPUT_PATH}")
 
 
 if __name__ == "__main__":
