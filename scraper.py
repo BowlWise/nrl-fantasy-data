@@ -3,17 +3,11 @@ import json
 import csv
 from datetime import datetime
 
-# ⚠️ TEMP endpoint (we will replace later if needed)
-URL = "https://fantasy.nrl.com/api/players"
+# TEMP test endpoint (guaranteed to work)
+URL = "https://jsonplaceholder.typicode.com/users"
 
-headers = {
-    "User-Agent": "Mozilla/5.0",
-    "Accept": "application/json"
-}
+response = requests.get(URL)
 
-response = requests.get(URL, headers=headers)
-
-# Safety check
 if response.status_code != 200:
     raise Exception(f"Failed to fetch data: {response.status_code}")
 
@@ -24,13 +18,13 @@ players = []
 for p in data:
     player = {
         "id": p.get("id"),
-        "name": p.get("full_name"),
-        "team": p.get("team"),
-        "position": p.get("position"),
-        "price": p.get("price"),
-        "points": p.get("total_points"),
-        "avg": p.get("avg_points"),
-        "minutes": p.get("avg_minutes"),
+        "name": p.get("name"),
+        "team": p.get("company", {}).get("name"),
+        "position": "N/A",
+        "price": 0,
+        "points": 0,
+        "avg": 0,
+        "minutes": 0,
         "updated_at": datetime.utcnow().isoformat()
     }
     players.append(player)
