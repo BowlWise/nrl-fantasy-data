@@ -1,0 +1,28 @@
+name: Weekly NRL Data Update
+
+on:
+  schedule:
+    - cron: "0 20 * * 1"
+  workflow_dispatch:
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Install Python packages
+        run: pip install requests
+
+      - name: Run scraper
+        run: python scraper.py
+
+      - name: Commit updated files
+        run: |
+          git config --global user.name "data-bot"
+          git config --global user.email "bot@example.com"
+          git add .
+          git commit -m "Weekly data update"
+          git push
